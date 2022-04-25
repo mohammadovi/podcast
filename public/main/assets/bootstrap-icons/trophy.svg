@@ -1,0 +1,19 @@
+Thread_finishedmsg=已經完成磁盤擦除.
+other_wipereportThread_finishedmsg=擦除報告創建完成.
+
+other_scanDeletedFiles_finishedmsg=已完成被刪除的文件掃描。
+other_scanLostFiles_finishedmsg=已完成被格式化的文件掃描。
+other_scanLostVolumes_finishedmsg=已完成丟失的捲標掃描。
+
+other_CreateImageThread_finishedmsg_success=已經成功創建映像。
+other_CreateImageThread_finishedmsg_error=映像創建完成，中間遇到錯誤. 更多信息請看日誌文件.
+other_RestoreImageThread_finishedmsg_success=已經成功還原映像。
+other_RestoreImageThread_finishedmsg_error=映像還原失敗。更多信息請看日誌文件.
+
+other_diskfull=目前的項目需要 %d MB.\n 有 %d MB 可用空間在卷 %s.\n您想把剩余文件保存到另一個卷上嗎？
+
+other_badblocklist=壞塊列表 %s
+other_savebadblocklist=保存壞區列表...
+other_openbadblocklist=打開壞區列表...
+
+other_noadmin

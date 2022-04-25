@@ -1,0 +1,39 @@
+-RAIDs -------------------------------------
+
+[hwraid]
+name=Generic HW-RAID
+defaultFirstSector=0
+
+[hwraid0]
+defaults=raid0 hwraid
+
+[hwraid5]
+defaults=raid5 hwraid
+
+; ------------------- Adaptec RAIDs ---------------------------------------
+
+[adaptec]
+name=Adaptec RAID
+defaultFirstSector=0
+probeFirstSectors=0
+
+[adaptec0]
+defaults=hwraid0 adaptec
+
+[adaptec5]
+defaults=hwraid5 adaptec
+defaultParityRotation=backward
+probeParityRotations=backward
+
+; ------------------- HP/Compaq RAIDs ----------------------------------------
+
+[hp]
+name=HP/Compaq RAID
+defaultFirstSector=1088
+probeFirstSectors=1088
+
+[hp0]
+defaults=hwraid0 hp
+
+[hp5]
+defau

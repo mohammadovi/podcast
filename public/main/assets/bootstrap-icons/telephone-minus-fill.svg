@@ -1,0 +1,14 @@
+located on disk.
+flag_notyetmounted=This volume has not yet been mounted.
+flag_rootempty=The root of this volume is empty.
+flag_fsreconstructed=The filesystem of this volume has been reconstructed.
+flag_fsoriginal=The filesystem of this volume is valid and original (not reconstructed).
+flag_bsinvalid=The bootsector of this volume seems to be invalid.
+
+class_TEXFATVolumeItem=EXFATVolumeItem
+class_TFATVolumeItem=FATVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_THFSVolumeItem=HFSVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_TEXT2VolumeItem=EXT2Volumeitem
+class_TUDFVolumeItem=UDFVo

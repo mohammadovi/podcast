@@ -1,0 +1,13 @@
+options
+
+opt_advscanoptions=Advanced Scan Options
+
+opt_tabSheetScanRegion=Scan Region
+opt_tabSheetScanRegion_lbltop=On very large disks, it can be useful to limit the scan to a certain range of the disk. This will speed up the scan and reduce the number of found files. This option applys to all scan scenarios.
+opt_tabSheetScanRegion_lblstart=Start at:
+opt_tabSheetScanRegion_lblstop=Stop at:
+
+opt_tabSheetFileTypes=File Types
+opt_tabSheetFileTypes_lbltop=To speed up the scan or limit the number of found files, you can disable certain file types for all scan scenarios here.
+opt_tabSheetFileTypes_lblfilter=Choose file types filter:
+opt_tabSheetF

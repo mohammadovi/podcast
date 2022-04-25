@@ -1,0 +1,8 @@
+he application sent invalid parameters to QuickLicenseRT.
+ql_ret_notreset=Esta aplicación no ha sido reajuste.
+ql_ret_resetinvalidcode=Un inválido Código de Reajustar se inscribió.
+ql_ret_resetcodealreadyused=Este Códigode de Reajustar ya se ha utilizado. Para restablecer la presente aplicación, solicitar un nuevo Código de Reajustar.
+ql_ret_resetnotallowed=Esta aplicación no ha sido configurado para restablecer reajuste, o el nombre del producto en el boleto archivo fue generado por otro proveedor.
+ql_ret_resetcompleted=Esta aplicación se reajustar con éxito.
+ql_ret_void=El boleto para esta aplicación se ha anulado debido a numerosos intentos infructuosos reajustar. Póngase en contacto el vendedor para pedir un nuevo boleto.
+ql_ret_toomanyresets=La aplicación del b

@@ -1,0 +1,25 @@
+copydisk=複製磁盤
+action_CleanUpdisk=清理磁盤
+action_RefreshDisk=刷新磁盤
+
+op_disktools=磁盤工具
+op_disktools_hint=提供磁盤成像和處理功能：圖像創建和恢復。直接磁盤拷貝，擦拭和看法。 
+op_diskTools_LoadImage=加載圖像
+op_diskTools_CreateImg=創建圖像
+op_diskTools_RestoreImg=恢復圖像
+op_diskTools_CopyDisk=複製磁盤
+op_diskTools_WipeDisk=擦除磁盤
+op_diskTools_ViewDisk=查看磁盤
+op_diskTools_RefreshDisk=刷新磁盤
+
+other_copydiskwarning=您將複製的磁盤 “%s” 到 “%s”。這將覆蓋目標磁盤上的 %s 的。你肯定嗎？   
+other_copyingdisk=複製磁盤
+other_CopyDiskThread_finishedmsg_success=該硬盤已經被成功地複製。
+other_CopyDiskThread_finishedmsg_error=磁盤拷貝失敗。更多信息，查看日誌文件。
+
+wiz_disktools_title=磁盤工具
+wiz_disktools_subtext=請選擇之間的映像創建或恢復功能。磁盤複製拷貝直接從源到目標磁盤，而無需創建一個圖像。
+
+wiz_disktools_choosedestVol_title=目標磁盤
+wiz_disktools_choosedestVol_subtext=請選擇一個目的地以前選定的磁盤將被複製到磁盤。
+wiz_selDestDisk_Note=注意：一定要選擇一個目標磁盤�

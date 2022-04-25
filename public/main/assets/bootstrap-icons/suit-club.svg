@@ -1,0 +1,17 @@
+/span><span style="font-size: 10pt;" lang="ZH-CN">然後保存數據。參考前面關於選擇磁盤或捲進行掃描的部分。</span><span style="font-family: 'Verdana','sans-serif'; font-size: 10pt;" lang="ZH-CN"> 
+</span><span style="font-family: 'Verdana','sans-serif'; font-size: 10pt;"><o:p></o:p></span></p>
+
+        <p><span style="font-size: 10pt;" lang="ZH-CN">刷新磁盤列表（文件菜單）選項可用於從磁盤列表中刪除所有已添加的</span><span style="font-size: 10pt;">RAID<span lang="ZH-CN">卷。</span><o:p></o:p></span></p>
+        <br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 500px; height: 373px;" alt="" src="../images/raid7.png"><br>
+        </td>
+      </tr>
+<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			如果您不能瀏覽RAID上的分區，那是因為重建RAID的參數不正確。然而，
+			您可以很容易地返回到前面界面進行參數調整，不需要重新掃描。
+			高亮選擇磁盤列表中的RAID，然後點擊“細節”按鈕。這將返回到RAID重建器屏幕。
+			</fon

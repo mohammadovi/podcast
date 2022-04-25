@@ -1,0 +1,22 @@
+﻿[General]
+Cancel=Peruuta
+FileFilterAllFiles=Kaikki tiedostot
+FileFilterHTMLFiles=HTML tiedostot
+
+[ChooseClientForm]
+ChooseMailClient=Valitse sähköpostiohjelmasi:
+SelectLocationText=Valitse sähköpostitiedoston asema ja kansio, mistä sähköpostitietojen haku aloitetaan.
+OutlookExpressBtn=Outlook Express
+OutlookBtn=Outlook
+EudoraBtn=Eudora
+MozillaBtn=Mozilla
+BeckyBtn=Becky
+WinMailBtn=Windows Live Mail
+
+[FindMailForm]
+FindText=Etsitään sähköpostitietoja...
+
+[MainForm]
+ButtonBack=Takaisin
+ButtonSaveMail=Tallenna sähköposti
+ButtonPrintMail=Tulosta sähköposti

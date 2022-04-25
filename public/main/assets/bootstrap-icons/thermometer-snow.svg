@@ -1,0 +1,7 @@
+于磁盘上，将在下一步进行卸载。请关闭现在所有其他访问磁盘的应用程序和文件 "%s". 继续进行下一步呢？  
+other_writetoOSdrivenotpossible=在Windows Vista/7，直接写卷包含操作系统是不可能的。无法继续经营。
+other_writetophysdisknotpossible=直接写入物理磁盘已安装在Windows Vista/7卷是不是可能。重要：你必须关闭所有应用程序访问此物理磁盘。只有这样，可以卸载这个磁盘上的卷。你想再试一次吗？
+
+other_writingOnOsDrvNotPossible=测试写操作失败。注：数据块写入磁盘，其中包含的操作系统是不可能的，由于安全原因。
+other_RefreshDiskThread_finishedmsg_success=刷新操作顺利完成。 
+other_RefreshDiskThread_finishedmsg_error=刷新操作完成的错误。请

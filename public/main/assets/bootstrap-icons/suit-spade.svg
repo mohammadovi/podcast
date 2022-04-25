@@ -1,0 +1,41 @@
+﻿; ER/FRC translation file
+
+; Note for translators:
+;
+; * Please *only* translate the text after the equal sign symbol ('=') in each row.  
+; * Please do *not* remove any symbols or placeholders (like  &, %s, %d, \n, etc.) 
+;   in your translated text - they are required to be found in your translation too.   
+; Thank you!      
+
+[main]
+
+gui_OK=OK
+gui_Cancel=Cancel
+gui_Yes=Yes
+gui_No=No
+gui_YesToAll=Yes to all
+gui_NoToAll=No to all
+gui_Ignore=Ignore
+gui_Close=Close
+gui_Exit=Exit
+gui_Warning=Warning
+gui_Error=Error
+gui_Information=Information
+gui_Confirmation=Confirmation
+gui_Progress=Progress...
+gui_pleasewait=Please wait...
+gui_help=Help
+
+build_DEMO=Evaluation
+
+action_about=About
+action_buynow=Buy Now
+action_upgrade=Update
+action_createimage=Create Image file
+action_exit=Exit
+action_help=Help
+action_loadimage=Load Image File
+action_options=Options
+action_raid=RAID Reconstructor
+action_rescan=Rescan
+action_

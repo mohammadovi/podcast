@@ -1,0 +1,10 @@
+:
+remote_port=Port:
+remote_tellipandport=Tell your partner your IP and port on the phone.
+remote_yourwanip=Your IP:
+remote_waitforconnection=Wait until your partner connects to you.
+remote_troubleshooting=Troubleshooting
+remote_troubleshootingViewer=If your remote partner cannot establish a connection, you should check the port-forwarding and firewall settings on the port number shown above.
+remote_troubleshootingServer=If the connection fails, your support partner should add port-forwarding to his router and open his firewall on the port number given in the address field above.
+remote_serverwait=Wait until your remote partner tells your his IP and port. Then enter them here:
+remote_ser

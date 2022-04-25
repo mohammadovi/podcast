@@ -1,0 +1,28 @@
+ed=Total items processed: %d
+core_wipe_fileentry='%s' (file), Size in Bytes: %d, Modification Date: %s, Status: %s
+core_wipe_folderentry='%s' (folder), Modification Date: %s, Status: %s
+core_wipe_deleteditems=Deleted items:
+core_wipe_skippedanderroritems=Skipped/error items:
+core_wipe_files=Files: %d 
+core_wipe_folders=Folders: %d
+core_wiped=Deleted
+core_wipeerror=Error on deletion
+
+wipe_report_filename=%globalproductnameshort% wipe report %s.txt
+wipe_finished=Wipe finished
+wipe_finishedgetreport=The wipe has finished - You will get a wipe report of the deleted items now.
+wipe_savereport=Save report
+wipe_choosefile=Choose a filename for the wipe report
+wipe_close=Close
+wipe_openfilepath=Open filepath
+wipe_reportformcaption=Wipe report
+
+diskviewer_labelsearchfor=Search for:
+diskviewer_searchpos=Search position:
+diskviewer_rgType=Type
+diskviewer_rbHex=Hex
+diskviewer_rbString=String
+diskviewer_btnSearch=&Search/Continue
+diskviewer_btnDumpToLog=Dump to log file
+diskviewer_btnSearching=Searching...
+diskviewer_btnS

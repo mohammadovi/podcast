@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>kt</string>
+		<string>kts</string>
+	</array>
+	<key>name</key>
+	<string>Kotlin</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#comments</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.kotlin</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.package.kotlin</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^\s*(package)\b(?:\s*([^ ;$]+)\s*)?</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#imports</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>#statements</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>classes</key>
+		<dict>
+			<key>begin</key>
+			<string>(?=\s*(?:companion|class|object|interface))</string>
+			<key>end</key>
+			<string>}|(?=$)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>\b(companion\s*)?(class|object|interface)\b</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?=&lt;|{|\(|:)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\b(object)\b</string>
+							<key>name</key>
+							<string>keyword.other.kotlin</string>
+						</dict>
+						<dict>
+							<key>match</key>
+							<string>\w+</string>
+							<key>name</key>
+							<string>entity.name.type.class.kotlin</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>&lt;</string>
+					<key>end</key>
+					<string>&gt;</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#generics</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\(</string>
+					<key>end</key>
+					<string>\)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#parameters</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(:)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.declaration.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?={|$)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\w+</string>
+							<key>name</key>
+							<string>entity.other.inherited-class.kotlin</string>
+						</dict>
+						<dict>
+							<key>begin</key>
+							<string>\(</string>
+							<key>end</key>
+							<string>\)</string>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>#expressions</string>
+								</dict>
+							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\{</string>
+					<key>end</key>
+					<string>\}</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#statements</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>comments</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>/\*</string>
+					<key>captures</key>
+					<dict>
+						<key>0</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>\*/</string>
+					<key>name</key>
+					<string>comment.block.kotlin</string>
+				</dict>
+				<dict>
+					<key>captures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>comment.line.double-slash.kotlin</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.comment.kotlin</string>
+						</dict>
+					</dict>
+					<key>match</key>
+					<string>\s*((//).*$\n?)</string>
+				</dict>
+			</array>
+		</dict>
+		<key>constants</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\b(true|false|null|this|super)\b</string>
+					<key>name</key>
+					<string>constant.language.kotlin</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b</string>
+					<key>name</key>
+					<string>constant.numeric.kotlin</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\b([A-Z][A-Z0-9_]+)\b</string>
+					<key>name</key>
+					<string>constant.other.kotlin</string>
+				</dict>
+			</array>
+		</dict>
+		<key>expressions</key>
+		<dict>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>\(</string>
+					<key>end</key>
+					<string>\)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#expressions</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#types</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#strings</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#constants</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#comments</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#keywords</string>
+				</dict>
+			</array>
+		</dict>
+		<key>functions</key>
+		<dict>
+			<key>begin</key>
+			<string>(?=\s*(?:fun))</string>
+			<key>end</key>
+			<string>}|(?=$)</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>\b(fun)\b</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.other.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?=\()</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>begin</key>
+							<string>&lt;</string>
+							<key>end</key>
+							<string>&gt;</string>
+							<key>patterns</key>
+							<array>
+								<dict>
+									<key>include</key>
+									<string>#generics</string>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>captures</key>
+							<dict>
+								<key>2</key>
+								<dict>
+									<key>name</key>
+									<string>entity.name.function.kotlin</string>
+								</dict>
+							</dict>
+							<key>match</key>
+							<string>([\.&lt;\?&gt;\w]+\.)?(\w+)</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\(</string>
+					<key>end</key>
+					<string>\)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#parameters</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(:)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.declaration.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?={|=|$)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#types</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>\{</string>
+					<key>end</key>
+					<string>(?=\})</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#statements</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>begin</key>
+					<string>(=)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>keyword.operator.assignment.kotlin</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(?=$)</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>include</key>
+							<string>#expressions</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>generics</key>
+		<dict>
+	ÙDÀó@)Ì	Ìí,
+ P÷ë®“îù¾sğ;ô÷úfìE
+èÓÜì÷Û	İïcúô
+à	îÿà_êRZî¨×›<æøŒÀ6ë¤	ˆ½éntÉõå±
+w¨aê8_	¢ì|]Šæâı@¢õ(¨íû0·¼òå
+fe	òğÃÆ³Ùûç¡$ÓöÑ,´»üÛC
+\÷z : òî	2‘
+şæ>ãºOíÛC(†ëù	¤©í1¾G æ¤	B”öûTÿ„ĞFê=
+|&Æò³ş("ëïyjù¯ç˜—cí7lUïjJn	ÎõÄw\î´õ8¸Åíeúÿ¾Ğê@ø‹fcìÃúGpÿìí`ö ½\ëõôíÿí¬êåøQ$éııpş*iê}ôá!
+rêöø=¶ì•ø©V‹êûùú™–èuùs˜æ”şüşgíQósH¨è÷ıçı	²Øçûö#²ç›ú<*×é>õr
+V”î–÷ìårşpÿÿyê¨ûùqñé·öı8;èûõ4ÿÑ…ívú2úäî(ÿ.Zféøş×ëñüx	¡òxñış<æáúSûÊëŞøÜ’î«õ ¨3ó(÷1¸ïÜöÊ˜œğ•ô
+ù£ÅíÍûHúZtò‰şnL	]ñ»ßımõíx¼.	ºöHòpD
+Lô5óŞÚ¡ç9ú¬pîAóÔòZòğñ\üjóê²ô{ÿqğ=ó1ómñ6#ığAô´şMíò( ïÿ [ğ–ñCÿxîÿõ>ş2ñ¦új¤hëñÿúnå÷a‘†îxz	ŒôZõâıÍ¼óÈû¨Èíîìÿà
+Dçú¯Ñ§ñŠúfğå¹€ôÜî
+|
+ìå¢ı¤öæûêgõ¿õî	@ğÀô1ûşïºôúF	êğSîAö›ù»êòğß*ù°ì»ö„Øô•ç”õ½Šü3î‘ôK…òäç{ø$
+¨í!ö~ó¨ğøèüò_ì¬òtó+Åï"ğü…óëYñøó•ğêòÛ}ñ÷ù]õùşññSõ²ì¸ùeÆï#îØòÊœî­çú)ŸéyñAõÑ+ìyì1ñj	ÖìXë&ıÿ‡ïUñìø	Œêƒñığµğ9ñçôñJï²î‚ù:Ëí„ğ³ıYÅìñÅïºğ†ï‘ğÒ
+—õ

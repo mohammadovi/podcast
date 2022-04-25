@@ -1,0 +1,19 @@
+tr>
+  <tr>
+    <td height="56" width="34%"> 
+      <div align="center">
+		<div align="left">
+			<font color="#003333" face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			<b>Skanning:</b>
+Avhengig av størrelsen på disken din skanningen prosessen kan ta flere
+timer! Du kan også velge å vise loggen meldingene i skanning-vinduet
+hvis du trenger å gjøre noe feilsøking av skanningen.</font></div>
+		&nbsp;</div>
+    </td>
+    <td align="center" height="56" width="66%">&nbsp;<img src="../images/scanning.png">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="56" width="34%"> 
+      <div align="center"><img src="../images/arrowdn.gif" height="31" width="20"></div>
+    </td>
+    <t

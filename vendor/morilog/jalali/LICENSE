@@ -1,0 +1,5 @@
+ID=9568 TID=7296 Feature MSMQ-Multicast with CBS state 4(CbsInstallStateStaged) being mapped to dism state 4(DISM_INSTALL_STATE_STAGED) - CDISMPackageFeature::LogInstallStateMapping
+2022-04-16 16:03:33, Info                  DISM   DISM Package Manager: PID=9568 TID=7296 Feature MSMQ-DCOMProxy with CBS state 4(CbsInstallStateStaged) being mapped to dism state 4(DISM_INSTALL_STATE_STAGED) - CDISMPackageFeature::LogInstallStateMapping
+2022-04-16 16:03:34, Info                  DISM   DISM Package Manager: PID=9568 TID=7296 Feature MSMQ-RoutingServer with CBS state 4(CbsInstallStateStaged) being mapped to dism state 4(DISM_INSTALL_STATE_STAGED) - CDISMPackageFeature::LogInstallStateMapping
+2022-04-16 16:03:34, Info                  DISM   DISM Package Manager: PID=9568 TID=7296 Feature WCF-Services45 with CBS state 7(CbsInstallStateInstalled) being mapped to dism state 7(DISM_INSTALL_STATE_INSTALLED) - CDISMPackageFeature::LogInstallStateMapping
+2022-04-16 16:03:34, Info                  DISM   DISM Package Manager: PID=9568 TID=7296 Feature WCF-HTTP-Activa

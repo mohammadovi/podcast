@@ -1,0 +1,17 @@
+diskinfo_blocksize=区块大小
+diskinfo_physicalblockofs=物理区块偏移
+diskinfo_physicalblocksize=物理区块尺寸
+diskinfo_mountpoint=Moint point
+diskinfo_devicepath=设备路径
+diskinfo_interface=接口
+diskinfo_isfilteredDisk=磁盘过滤激活
+diskinfo_FilteredDiskType=过滤了的磁盘类型
+diskinfo_lockcount=锁定计数
+diskinfo_lost=丢失
+diskinfo_iswholePhysicalDisk=整个物理磁盘
+diskinfo_errorcounter=错误计数器
+diskinfo_filesystemoffset=文件系统偏移
+diskinfo_numberofPartitions=分区数
+diskinfo_AutoAddBadBlocks=自动加入坏块
+diskinfo_AutoSkipBadBlocks=自动跳过坏块
+diskinfo_badblockcount=坏块管理

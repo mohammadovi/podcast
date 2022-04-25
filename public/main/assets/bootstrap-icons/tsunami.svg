@@ -1,0 +1,52 @@
+鏈接。
+remoteview_noconnection=如果您的遠程夥伴不能建立連接，您應當檢查上面顯示的端口號的端口轉發和防火牆設置。
+remoteview_bottom=如果您的遠程夥伴連接成功，會自動打開一個新窗口顯示他的桌面。
+remoteview_portnum=您的端口號是:
+remoteview_startviewer=啟動查看器
+remoteview_stopviewer=停止查看器
+
+demomsgstart=本軟件的演示版本有如下限制:
+demomsgfiles=%d 文件
+demomsgmaxfilesize=最大文件長度 %d K字節
+demomsgtotalamount=每用戶總數 %d K字節.
+demomsgend=您已經用此軟件恢復 %d 文件和 %d K字節.
+demomsgendbuy=請購買完整版，保存文件和文件夾時將沒有演示版的那些限制。
+
+logging_none=沒有
+logging_info=信息
+logging_debug=調試
+logging_debug2=調試2
+logging_warning=警告
+logging_error=錯誤
+
+core_Category_image=圖像
+core_Category_application=應用程序
+core_Category_audio=音頻
+core_Category_archive=歸檔文件
+core_Category_document=文檔
+core_Category_video=視頻
+core_Category_text=文本
+core_Category_other=其它
+core_Root=根
+core_Deleted=刪除
+core_Lost=丟失
+core_OrphanedFolders=孤立的文件夾
+core_SearchResults=搜索結果
+core_ContentOfFolder=文件夾內容: %s
+core_Name=名稱
+core_Size=尺寸
+core_Type=類型
+core_DateModified=修改日期
+core_ID=ID
+core_Folder=文件夾
+core_File=文件
+core_NotAvailable=N/A
+core_analyserScanBegin=啟動分析器
+core_analyserScanEnd=停止分析器- 請等待...
+core_scanning=正在掃描磁盤 - 請等待...
+core_done=完成
+core_countingfiles=計算文件...
+core_creatingreport=正在創建報表...
+core_reportcancel=此報告不完整/已在創建過程中被取消。
+core_blockOffsetDetection=正在刪除區偏移
+core_Fil

@@ -1,0 +1,20 @@
+�小
+diskinfo_physicalblockofs=物理區塊偏移
+diskinfo_physicalblocksize=物理區塊尺寸
+diskinfo_mountpoint=掛載點
+diskinfo_devicepath=設備路徑
+diskinfo_interface=接口
+diskinfo_isfilteredDisk=磁盤過濾激活
+diskinfo_FilteredDiskType=過濾了的磁盤類型
+diskinfo_lockcount=鎖定計數
+diskinfo_lost=丟失
+diskinfo_iswholePhysicalDisk=整個物理磁盤
+diskinfo_errorcounter=錯誤計數器
+diskinfo_filesystemoffset=文件系統偏移
+diskinfo_numberofPartitions=分區數
+diskinfo_AutoAddBadBlocks=自動加入壞塊
+diskinfo_AutoSkipBadBlocks=自動跳過壞塊
+diskinfo_badblockcount=壞塊管理條目數量
+diskinfo_popup_dumptolog=倒入日誌文件
+diskinfo_popup_copy=全部複製
+diskinfo

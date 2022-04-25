@@ -1,0 +1,16 @@
+tAdvScanOptions_lbltop=These advanced options are for experienced users:
+opt_tabSheetAdvScanOptions_lblscanburstsize=Create images and disk-copies using a burst/block size of:
+
+opt_tabSheetWipeOptions=Wipe Options
+opt_tabSheetWipeOptions_lbltop=Here you can choose between different wipe options:
+opt_tabSheetWipeOptions_lblwipemethod=Wipe method:
+opt_tabSheetWipeOptions_cbcreatereport=Create a wipe report
+
+opt_okbtn=OK
+opt_cancelbtn=Cancel
+opt_helpbtn=Help
+
+
+about_copyright=LC Technology International, Inc.\nAll Rights Reserved.
+about_builddate=Build date:
+about_law=This computer program is protected by copyright law and international tre

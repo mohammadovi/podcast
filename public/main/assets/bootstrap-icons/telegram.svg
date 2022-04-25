@@ -1,0 +1,12 @@
+ee log file for details.
+other_fileexists=File does already exist
+other_confirmoverwrite=File %s already exists. Do you want to overwrite?
+other_question=Question
+other_confirmRestoreImage=Image Restore will overwrite all data on %s.\n Be sure that relevant deleted data has been already recovered from this volume.\n Do you want to continue?
+other_restoreimagefile=Restore image file
+other_restorewarning=This will overwrite the whole disk/volume %s (%s). Are you sure?
+other_confirmrefreshdisklist=Refreshing the disk list will remove your recovered volumes. Do you want to proceed?  
+
+
+other_saveThread_finishedmsg=The saving process has finished. A total of %d file(s) have been saved.
+other_CreateFolderReportThread_finishedmsg=The scan report has been create

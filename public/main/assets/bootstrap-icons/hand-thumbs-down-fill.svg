@@ -1,0 +1,16 @@
+y visiting the Online Shop today.
+expRemind_Contact=You may also contact your local %s Representative.
+tabsheet_expiration=Product expiration
+
+expRemind_clickhere=Click here
+
+
+; ------- new strings for global activation expiration ----------
+error_globalActExpired=The global activation expiration date (%s) has passed. This product cannot be re-activated to FULL version anymore. Please contact your vendor to get a new product license.
+
+serial_require_globalActExp=This software license needs to be activated before %s. After this date you cannot activate to FULL version anymore. Please enter your License Key to activate the product now.
+
+other_globalActExpirationDateUTC=Global re-activation expiration date:
+other_globalActExpired=Activation feature has globally expired.
+
+ql_requiresonlineregistration_globalActExp=This software license

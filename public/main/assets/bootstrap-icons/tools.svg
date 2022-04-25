@@ -1,0 +1,16 @@
+��用證書管理器導出您的NTFS 證書,\n 如果您想在另外一台機器上導入$EFS 文件的話.
+efsexport_fail=導出 $EFS 文件失敗. 錯誤代碼 =%d.
+efsimport_good=已經導入 $EFS 文件. 為了防止導入的文件是無效的, 您必須導入此機器有效的NTFS證書。 \n 使用源PC上的證書管理器來導出原始的NTFS證書。
+efsimport_fail=導入$EFS 文件失敗. 錯誤代碼 =%d.
+
+popupmenuprogress_nexterr=進入下一個錯誤入口
+popupmenuprogress_openlogpath=打開日誌文件路徑
+popupmenuprogress_maillog=發送日誌文件到郵件 %s
+popupmenuprogress_copy=複製到剪貼板
+popupmenuprogress_scrollstopstart=停止/繼續滾動
+
+progressfrm_btncancel=取消
+progressfrm_btnpause=暫停
+progressfrm_btnresume=繼續
+progressfrm_checkboxlog=顯示日誌消息
+progressfrm_listboxloghint=使用方向鍵或上下翻頁鍵導航。點擊鼠標右鍵將

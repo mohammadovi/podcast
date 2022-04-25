@@ -1,0 +1,14 @@
+terror=Error al conectar con el servidor - inténtelo de nuevo más tarde!
+update_downloaderror=Error de descarga de actualización!
+update_uptodate=No hay actualizaciones disponibles - Usted está actualizado!
+update_complete=Actualizar completo! Haga clic en "Cerrar" para reiniciar el programa.
+update_newreleaseheader=Nuevo lanzamiento de producto
+update_newreleasetext=Un nuevo lanzamiento de producto está disponible (%s) - ¿quieres saber más sobre él? 
+update_yes=Sí
+update_no=No
+update_nolater=No, tal vez más tarde.
+update_unpackerror=Se ha producido un error al desembalar. Por favor ver el archivo de registro para obtener más información.
+update_unkownerror=Se ha producido un error desconocido durante el proceso de actualización. Por favor ver el archivo de registro para obtener más información.
+
+Update_confirmation=Confirmación de actualización
+Update_confirmation_msg=Actualización del softwar

@@ -1,0 +1,149 @@
+_NTFSMetaMftStartLcn=startowy klaster NTFS MFT 
+diskinfo_NTFSMetaMftMirrorStartLcn=startowy klaster NTFS MFT mirror
+diskinfo_NTFSCountOfClusters=liczba klastrów NTFS
+diskinfo_NTFSTotalSectors=liczba sektorów NTFS
+
+diskinfo_HFSVolumeNameFound=Nazwa partycji HFS odnaleziona
+diskinfo_HFSAllocBlockCount=Licznik bloków alokacji HFS
+diskinfo_HFSRFARecursiveCounter=wartość HFS RFA recursive counter
+diskinfo_HFSRecCatFileNodeSize=wielkość pliku węzła HFS rec-cat
+diskinfo_HFSAllocFileContentsSize=wielkość pliku zawartości wpisów alokacji HFS
+diskinfo_HFSVolumeHeaderOfs=Offset nagłówka partycji HFS (w bajtach)
+  
+diskinfo_EXT2superblockofs=Offset superbloku EXT2 (w bajtach)
+diskinfo_EXT2blockgroupno=Liczba wszystkich bloków w superbloku EXT2
+diskinfo_EXT2SparseSuper=Funkcja zapasowego superbloku EXT2 aktywna
+diskinfo_EXT2RevMajor=wartość EXT2 Revision Major
+diskinfo_EXT2RevMinor=wartość EXT2 Revision Minor
+diskinfo_EXT2blockcount=EXT2 block count
+diskinfo_EXT2INodesPerGroup=Liczba i-węzłów na grupę EXT2
+diskinfo_EXT2BlocksPerGroup=Liczba bloków EXT2 na grupę
+diskinfo_EXT2BlockGroups=Liczba bloków grup EXT2
+diskinfo_EXT2INodeSize=Wielkość i-węzła EXT2
+diskinfo_EXT2InodesCount=Liczba i-węzłów EXT2
+diskinfo_EXT2useBlockGroupNoForDescriptors=Inicjalny blok grup EXT2 do odczytu deskryptorów grup
+  
+diskinfo_ISOVD_typ=Typ deksryptora partycji
+diskinfo_ISOstd_id=Standardowe ID
+diskinfo_ISOvd_vers=wersja VD
+diskinfo_ISOsys_id=ID Systemowe
+diskinfo_ISOvol_id=ID partycji
+diskinfo_ISOvol_spc_size=Przestrzeń partycji
+diskinfo_ISOvol_set_size=Ustaw rozmiar
+diskinfo_ISOvol_seq_nr=Numer sekwencji
+diskinfo_ISOlog_blc_size=Wielkość bloku
+diskinfo_ISOpth_tb_size=Wielkość tablicy
+diskinfo_ISOtyp_path_tb=Wprowadź ścieżkę tablicy
+diskinfo_ISOopt_path_tb=Opcjonalna ścieżka tablicy
+diskinfo_ISOvol_set_id=Ustaw ID
+diskinfo_ISOpubl_id=ID wydawcy płyty (Publisher)
+diskinfo_ISOdata_prep_id=Przygotuj ID
+diskinfo_ISOappl_id=ID aplikacji
+diskinfo_ISOc_file_id=ID pliku
+diskinfo_ISOabstr_file_id=ID pliku podsumowania (Abstract)
+diskinfo_ISObibl_file_id=ID pliku bibliograficznego
+diskinfo_ISOvol_creat_datime=Data/Czas wytworzenia
+diskinfo_ISOvol_mod_datime=Data/Czas modyfikacji
+diskinfo_ISOvol_expi_datime=Data/Czas wygaśnięcia
+diskinfo_ISOvol_eff_datime=Efektywna data/czas
+diskinfo_ISOfile_struct_ver=Wersja struktury plików
+diskinfo_ISOxa_sign=sygnatura XA
+diskinfo_ISOxa_flags=flagi XA
+diskinfo_ISOstartup_dir=folder startowy
+
+diskinfo_UseIOCTLscsi=Użyj interfejsu SCSI IO-control
+diskinfo_ContainsPageFile=Zawiera plik wymiany
+diskinfo_Authorize=Poproś o autoryzację adiministratora
+diskinfo_Locked=Zablokowane w OS
+diskinfo_Mounted=Zamontowane przez OS
+diskinfo_IsSystemVolume=Jest partycją systemową 
+
+
+prop_itemgrpbox=Właściwości elementu
+prop_itemname=Nazwa elementu
+prop_itemsize=Wielkość
+prop_itemid=ID
+prop_itemparentid=ID nadrzędne
+prop_itemFSRefBlock=Filesystem ref.block
+prop_itemFSRefClus=Filesystem ref.cluster
+prop_itemClass=Klasa elementu
+prop_dateCreated=Data/Czas utworzenia
+prop_DateModified=Data/Czas modyfikacji
+prop_DateLastWrite=Data/Czas ostatniej operacji zapisu
+prop_DateLastAccess=Data/Czas ostatniego dostępu
+prop_firstdatablock=Pierwszy blok danych
+prop_firstdataCluster=Pierwszy klaster danych
+prop_firstdataClusterHigh=Pierwszy klaster danych (Wysoki)
+prop_firstdataClusterLow=Pierwszy klaster danych (Niski)
+prop_itemStatus=Status elementu
+prop_DBID=ID bazy
+prop_DBParentID=ID bazy nadrzędnej
+prop_MimeType=Typ Mime
+prop_ForkADSInfo=Data forks/ADS
+prop_attributes=Atrybuty
+prop_overallsize=Wielkość włączając podfoldery
+
+prop_folder_count=Liczba folderów
+prop_file_count=Liczba plików
+prop_item_count=Liczba elementów
+
+prop_volgrpbox=Właściwości partycji
+prop_VolName=Nazwa partycji
+prop_VolDiskOfs=Offset na dysku w bajtach
+prop_volClusSize=Wielkość klastra
+prop_volBytesPerFileRec=Liczba bajtów na jeden rekord pliku
+prop_volBytesPerIndxBlk=Liczba bajtów na blok indeksu
+prop_volClass=Klasa partycji
+prop_volTotalCluster=Całkowita liczba klastrów
+prop_volBlkDiskOfs=Offset bloku na dysku
+prop_volStatus=Status partycji
+prop_volPhysicalBlockOfs=Offset/przesunięcie dysku w bajtach 
+prop_volDBID=ID bazy
+
+prop_formcaption=Właściwości
+prop_volflags=Flagi partycji
+prop_diskflags=Flagi dysku
+prop_addtoscanreport=Dodaj do raportu skanowania
+
+prop_ofitem=Właściwości elementu "%s"
+
+flag_bsrebuilt=Sektor satrtowy tej partycji został odbudowany.
+flag_mounterror=Ta partycja nie może być poprawnie zamontowana.
+flag_bsondisk=Sektor startowy tej partycji jest zlokalizowany na dysku.
+flag_notyetmounted=Ta partycja nie została jeszcze zamontowana.
+flag_rootempty=Katalog główny tej partycji jest pusty.
+flag_fsreconstructed=System plików na tej partycji został odbudowany.
+flag_fsoriginal=System plików na tej partycji jest sprawny i orginalny (nieodbudowywany).
+flag_bsinvalid=Sektor startowy tej partycji prawdopodobnie jest uszkodzony.
+
+class_TEXFATVolumeItem=EXFATVolumeItem
+class_TFATVolumeItem=FATVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_THFSVolumeItem=HFSVolumeItem
+class_TNTFSVolumeItem=NTFSVolumeItem
+class_TEXT2VolumeItem=EXT2Volumeitem
+class_TUDFVolumeItem=UDFVolumeItem
+class_TISOVolumeItem=ISOVolumeItem
+class_TXFSVolumeItem=XFSVolumeItem
+class_TUFSVolumeItem=UFSVolumeItem
+class_TDUMMYVolumeItem=DummyVolumeItem
+class_TRAWVolumeItem=RAWVolumeItem
+  
+frmreport_caption=raport skanowania
+frmreport_btnsave=Zapisz...
+frmreport_btnprint=Drukuj... 
+frmreport_btnopen=Otwórz... 
+frmreport_btnok=Ok
+frmreport_popup_copy=Kopiuj
+frmreport_popup_save=Zapisz...
+frmreport_popup_open=Otwórz...
+frmreport_popup_changefont=Zmień czcionkę...
+frmreport_popup_autoupdate=Włącz automatyczną aktualizację
+frmreport_header1=%globalcompanyname% - raport skanowania\n\n
+frmreport_header2=Utworzony dla %s przy użyciu %globalproductnamelong%.
+frmreport_header3=Ten raport został stworzony na bazie pliku rejestrowego: %s.\n  
+frmreport_footer1=- Koniec raportu skanowania -\n
+frmreport_error=Raport ekstrakcji danych zawiera błędy.\n
+frmreport_savedlg_title=Zapisz raport skanowania na
+frmreport_savedlg_filename=%globalproductnamelong% raport skanowania %s
+frmreport_opendlg

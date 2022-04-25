@@ -1,0 +1,19 @@
+ket de la licencia no es válido
+lic_SyntaxError=el archivo de la licencia contiene un error sintáctico
+lic_Static=licencia estática/no escribible
+lic_NoExport=esta licencia no puede exportarse.
+
+; --- new strings in 1.0.0.29:
+restart_info_msg=El archivo de la licencia %s ya existe. Reinicie la aplicación si desea usar esta licencia. Si desea comprar una licencia nueva, borre el archivo y reinicie la aplicación.
+
+error_not_original_product=De acuerdo con el contrato de licencia, el producto solo se puede ejecutar con la licencia original.
+
+selLicFile_static=El archivo de licencia %s seleccionado está marcado como no escribible.
+selLicFile_writeError=No se pudo escribir en el archivo de licencia seleccionado %s.
+
+runStr_full=ejecutándose como versión COMPLETA
+runStr_demo=ejecutándose como versión Evaluación
+runStr_DemoTerminated=ejecutándose como versión Evaluación/terminada
+
+del_error=Este archivo %s no se pudo eliminar.
+dellicense_confirmation_msg=¿Está seguro de que quiere eliminar e

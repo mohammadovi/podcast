@@ -1,0 +1,27 @@
+</Control>
+      <Control ClassName="t_saveButton" ControlType="11">
+        <Text><![CDATA[Save]]></Text>
+      </Control>
+      <Control ClassName="t_cancelButton" ControlType="11">
+        <Text><![CDATA[Cancel]]></Text>
+      </Control>
+      <Control ClassName="m_pDeskTop" ControlType="8">
+        <Text><![CDATA[ Desktop]]></Text>
+      </Control>
+      <Control ClassName="m_pDocument" ControlType="8">
+        <Text><![CDATA[ My Documents]]></Text>
+      </Control>
+      <Control ClassName="m_pComputer" ControlType="8">
+        <Text><![CDATA[ My Computer]]></Text>
+      </Control>
+      <Control ClassName="o_lookIn" ControlType="11">
+        <Text><![CDATA[Look in]]></Text>
+      </Control>
+      <Control ClassName="o_fileName" ControlType="11">
+        <Text><![CDATA[File name]]></Text>
+      </Control>
+      <Control ClassName="o_flitType" ControlType="11">
+        <Text><![CDATA[Files of type]]></Text>
+      </Control>
+      <Control ClassName="o_title" ControlType="11">
+        <Text><![CDATA[Load Result File]]></

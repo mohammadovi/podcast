@@ -1,0 +1,18 @@
+this feature for archive media to safely rewrite and verify all data blocks.
+
+; ----------------
+; other new strings
+prop_itemFSRefOffset=Filesystem reference offset
+prop_itemFSChainStart=Filesystem data chain start
+prop_fattype=FAT Type
+prop_fat_usefatno=FAT number used
+
+diskinfo_FATType=FAT Type
+diskinfo_FATUseNo=FAT number used
+diskinfo_FATenableReverseLookupTable=Enable Reverse Lookup Table
+
+;-------
+op_diskTools_CleanupDisk=Cleanup disk
+op_diskTools_CleanupDisk_hint=This is a security feature. It overwrites all deleted and lost files (not the existing files!) on the selected disk, so they are irrecoverably removed. Use this feature if you want to get sure that no other people can read your deleted files with recovery tools. 
+other_cleanupdiskwarning=You will cleanup the disk "%s" (%s). This will overwrite all deleted and lost files on it, so they are irrecoverably removed.\nProceed?   
+other_CleanupDiskThread_finishedmsg_success=The disk has been successfully

@@ -1,0 +1,15 @@
+.
+wiz_save=Save Your Files
+wiz_save_hint=Select and save the files you want to recover to another disk. You can check the quality of the recovered files by using the built-in viewer or by opening the files with their associated application.
+wiz_backclear=This will clear any existing scan results. Are you sure?
+wiz_goback=Go back
+wiz_continue=Continue
+wiz_wipe=Wipe Data
+wiz_wipe_hint=Select the files and folders, then choose Wipe. ATTENTION: Wiped files are irrecoverably erased. 
+wiz_rescan=You have already performed a scan. Do you want to discard the results? If you choose "Yes", a new scan will be performed. 
+wiz_grplegend=Legend
+wiz_legend_lost=Lost or deleted folder
+wiz_legend_normal=Normal folder
+
+wiz_diskdiags=Disk diagnostics
+wiz_diskdiags_hint=The disk diagnostics show the disk/volume

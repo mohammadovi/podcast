@@ -1,0 +1,17 @@
+iután beállította a paramétereket, majd kattintson a Start Scan gombra, hogy a RAID Reconstructor elemezni a lemezre.</font></p>
+			<p align="left">
+			<font size="-1">Mivel
+a vizsgálat szondák különböz&#337; kombinációit adatok a RAID, akkor
+sorrendben sorolják fel a valószín&#369;ség a feszegették kombinációk
+listáját.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid4.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Amikor
+a vizsgálat befejez&#337;dik, akkor megjelenik a lista feszegették
+kombinációk a RAID. Minél magasab

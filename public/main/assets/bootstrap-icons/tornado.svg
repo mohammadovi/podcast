@@ -1,0 +1,40 @@
+�件。
+wiz_backclear=本操作將清除任何存在的掃描結果。您確定嗎？
+wiz_goback=返回
+wiz_continue=繼續
+wiz_wipe=擦除數據
+wiz_wipe_hint=選擇文件和文件夾，然後選擇擦除。注意: 擦除的文件將不可能再被挽回。
+wiz_rescan=您已經執行了一次掃描。您想放棄掃描結果嗎？如果您選擇“是”，將會執行一次新的掃描。
+wiz_grplegend=圖表
+wiz_legend_lost=丟失或刪除的文件夾
+wiz_legend_normal=正常文件夾
+
+wiz_diskdiags=光盘诊断
+wiz_diskdiags_hint=光盘诊断显示的图形图像的磁盘/卷。您可以运行一个块分析，以发现坏块，看到不同的磁盘卷或块的使用细节。
+
+
+media_harddrive=硬盤驅動器
+media_harddrive_hint=從內部硬盤和其他大容量存儲設備數據恢復，如外部連接的硬盤驅動器，SSD驅動器等\n 注意: 一個正確連接的設備在操作系統的磁盤管理工具中是可以看到的。
+media_memorycard=存儲設備
+media_memorycard_hint=從閃盤或其它移動閃存媒體恢復數據，如：SD卡，CF卡，MMC卡等，通過USB，FireWire或其他媒體讀取器設備連接。 \n 注意: 該設備必須顯示為可移動磁盤，或必須使用移動媒體閱讀器。
+
+media_optical=光學媒體
+media_optical_hint=從光學媒體如CD, CD-R/RW, DVD, DVD-R/RW 等恢復
+media_multimedia=多媒體 / 移動設備
+media_multimedia_hint=從多媒體或移動設備中恢復數據，如數碼相機，MP3播放器，智能電話等。 \n 注意: 該設備必須顯示為可移動磁盤，或必須使用移動媒體閱讀器。
+media_raid=RAID 系統
+media_raid_hint=恢復RAID系統的數據. 您也可以用這個來重新構造一個被破壞的RAID系統.
+
+vol_volumes=卷標
+vol_type=類型
+vol_size=大小
+vol_filesystem=文件系統
+vol_disk=磁盤
+vol_lostvolume=丟失的捲
+vol_volume=卷標
+
+
+op_explore=瀏覽卷標
+op_explore_hint=在資源管理器一樣的界面中瀏覽有效的捲。選擇此選項將從一個有效的捲中保存數據。此選項不涉及掃描過程。
+op_deleted=恢復已刪除的文件
+op_deleted_hint=通過文件內容髮現意外刪除的文件或丟失的文件。如果您從回收站刪除或者格式化恢復不能找到您的文件，您也可以選擇此選項。根據選項的不同，程序將決定是掃描所有的區塊還是僅�

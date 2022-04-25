@@ -1,0 +1,24 @@
+﻿[General]
+Cancel=Abbruch
+FileFilterAllFiles=Alle Dateien
+FileFilterHTMLFiles=HTML Dateien
+
+[ChooseClientForm]
+ChooseMailClient=Bitte Wählen Sie Ihr E-Mail Programm:
+SelectLocationText=Wählen Sie ihr Emaildaten-Laufwerk und (falls bekannt) einen Ordner wo nach Emaildateien gesucht werden soll.
+OutlookExpressBtn=Outlook Express
+OutlookBtn=Outlook
+EudoraBtn=Eudora
+MozillaBtn=Mozilla
+BeckyBtn=Becky
+WinMailBtn=Windows Live Mail
+
+[FindMailForm]
+FindText=E-Mail Daten werden gesucht...
+
+[MainForm]
+ButtonBack=Zurück
+ButtonSaveMail=E-Mail Speichern
+ButtonPrintMail=E-Mail Drucken
+CheckBoxShowHeader=Header anzeigen
+CheckBoxShowActivityLo

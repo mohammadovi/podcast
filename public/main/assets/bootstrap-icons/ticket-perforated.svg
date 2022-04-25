@@ -1,0 +1,26 @@
+﻿; ER/FRC translation file
+;	Traditional Chinese
+; Note for translators:
+;
+; * Please *only* translate the text after the equal sign symbol ('=') in each row.  
+; * Please do *not* remove any symbols or placeholders (like  &, %s, %d, \n, etc.) 
+;   in your translated text - they are required to be found in your translation too.   
+; Thank you!      
+
+[main]
+
+gui_OK=確定
+gui_Cancel=取消
+gui_Yes=是
+gui_No=不是
+gui_YesToAll=所有都是
+gui_NoToAll=所有都不是
+gui_Ignore=忽略
+gui_Close=關閉
+gui_Exit=退出
+gui_Warning=警告
+gui_Error=錯誤
+gui_Information=信息
+gui_Confirmation=確認
+gui_Progress=進度...
+gui_pleasew

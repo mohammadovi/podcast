@@ -1,0 +1,24 @@
+
+remote_vncnotfound=جهاز التحكم عن بعد vnc لا يستطيع المشاهد أن تكون وجدت في %s.
+remote_connectwait=توصيل الكمبيوتر البعيد، الرجاء الانتظار...
+remote_disconnectwait=قطع الاتصال من الكمبيوتر البعيد، الرجاء الانتظار...
+
+remote_btnconnect=ربط 
+remote_btndisconnect=قطع الاتصال 
+remote_btnclose=أغلق 
+remote_connect=ربط 
+remote_connecting=الاتصال...
+remote_connected=متصل.
+remote_disconnect=قطع الاتصال 
+remote_disconnecting=فصل...
+remote_disconnected=قطع.
+
+remote_choosebetween=الاختيار بين:
+remote_paneltextviewer=أريد أن السيطرة على بعض الآلات remote_paneltextserver=يجب أن يكون هذا الجهاز بجهاز تحكم عن بعد.
+remote_stepsnew=خطوات:
+remote_port=المنفذ:
+remote_tellipandport=اقول شريك حياتك الخاصة بك IP والمنفذ على الهاتف.
+remote_yourwanip=الخاص IP:
+remote_waitforconnection=انتظر حتى شريكك يتصل عليك.
+remote_troubleshooting=المشاكل
+remote_troubleshootingViewer=إذا كان شريك حياتك البعيد لا يمكن تأسيس اتصال ، يجب عليك مراجعة إعدادات المنفذ إعادة توجيه وجدار ا�

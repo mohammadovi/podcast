@@ -1,0 +1,19 @@
+�序打开文件。
+wiz_backclear=本操作将清除任何存在的扫描结果。您确定吗？
+wiz_goback=返回
+wiz_continue=继续
+wiz_wipe=擦除数据
+wiz_wipe_hint=选择文件和文件夹，然后选择擦除。注意: 擦除的文件将不可能再被挽回。
+wiz_rescan=您已经执行了一次扫描。您想放弃扫描结果吗？如果您选择“是”，将会执行一次新的扫描。
+wiz_grplegend=图表
+wiz_legend_lost=丢失或删除的文件夹
+wiz_legend_normal=正常文件夹
+
+wiz_diskdiags=光盘诊断
+wiz_diskdiags_hint=光盘诊断显示的图形图像的磁盘/卷。您可以运行一个块分析，以发现坏块，看到不同的磁盘卷或块的使用细节。   
+
+
+media_harddrive=硬盘驱动器
+media_harddrive_hint=从内部硬盘和其他大容量存储设备数据恢复，如外部连接的硬盘驱动器，SSD驱动器等\n 注意: 一个正确连接的设备在操作系统的磁盘管理工具中是可以看到的。
+media_memorycard=存储设备
+media_memorycard_hint=从闪

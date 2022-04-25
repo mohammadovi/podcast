@@ -1,0 +1,23 @@
+重建器分析數據，並嘗試為進行數據恢復重建RAID。
+</font></p>
+			<p align="left">
+	<font size="-1">
+   這對於控制器已停止工作，而驅動器仍在工作的情況，是特別有用。
+   您只需把驅動器連接到系統，重建RAID，然後恢復數據！
+   </font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> </font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid1.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			首先，您要選擇重建何種類型的RAID。在列表中有一些預設的常用RAID類型。
+			如果列表中沒有您的RAID類型，請選擇匹配您的RAID類型的通用RAID類型（HW, SW, RAID0，RAID5）。
+			</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid2.png"><br><br>
+			</td

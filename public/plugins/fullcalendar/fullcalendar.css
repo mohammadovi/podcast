@@ -1,0 +1,464 @@
+n=Pokračovat skenování
+diskdiag_badblocks=Špatné bloky
+
+diskdiag_lblstatus=Postavení: %s
+diskdiag_progress=Skenování bloku %d z %d (%s procento, %d MB/s)
+diskdiag_paused=Pozastaveno na bloku %d (%s procento)
+diskdiag_mounttry=Pokus o připojení oddílu číslo %d na disku "%s"...
+diskdiag_scanstopped=Skenování se zastavil na bloku %d (%s procento)
+diskdiag_scanfinished=Skenování dokončeno. %s (%d bloky) byly zkontrolovány.
+diskdiag_unknownblocktype=Neznámý typ bloku
+diskdiag_scanburstsize=Skenovat výbuch velikost
+
+diskdiag_title=Diagnostika disku
+diskdiag_details=Diagnostika disku Zobrazit disku / svazku jako grafický obrázek. Můžete spustit blok analýzy pro detekci špatných bloků, viz různé svazky na disku, nebo se informace o použití bloků.
+diskdiag_blockanalysis=Blok analýza
+diskdiag_legend=Bloky legendy
+diskdiag_badblock=Bad bloku
+diskdiag_usedblock=Použitý objem bloku
+diskdiag_freeblock=Volný objem bloku
+diskdiag_usedblock=Použité disk blok
+diskdiag_freeblock=Volného místa na pevném bloku
+diskdiag_fsblock=Souborovýsystém blok
+diskdiag_pttable=MBR/Partition table
+diskdiag_bootsector=Objem spouštěcího sektoru
+diskdiag_othertype=Jiné typ bloku
+diskdiag_disksurface=Disku/svazku povrchu
+diskdiag_results=Výsledky
+diskdiag_badblocks=Chybné bloky:%s
+diskdiag_usedVolBlocks=Použitý objem bloky:%s
+diskdiag_FreeVolBlocks=Volný objem bloků:%s
+diskdiag_usedDiskBlocks=Použité bloky na disku:%s
+diskdiag_FreeDiskBlocks=Volného místa na bloky:%s
+diskdiag_FSBlocks=Souborovýsystém bloků: %s
+diskdiag_OtherBlocks=Ostatní bloky:%s
+diskdiag_clusterwaste=Odpadu skupin:%s
+diskdiag_runsmart=SMART analýza
+diskdiag_readtest=Přečtěte si testovací
+diskdiag_writetest=Napsat test
+diskdiag_interface=Rozhraní: %s
+diskdiag_mountpoint=Přípojný bod:%s
+diskdiag_blockSize=Velikost bloku:%s
+diskdiag_blockCount=Počet bloků:%s
+diskdiag_disktype=Typ disku: %s
+diskdiag_physicaldisk=Fyzický disk:%s
+diskdiag_logicalvolume=Logický svazek:%s
+diskdiag_errorcounter=Chyba počítadlo:%s
+diskdiag_filesystemoffset=Souborový systém ofset:%s
+diskdiag_partitiontype=Typ diskového oddílu:%s
+diskdiag_devicePath=Cestu k zařízení:%s
+diskdiag_recoveryStatus=Obnova stav:%s
+diskdiag_statusNormal=Normální
+diskdiag_statusLost=Ztracený
+diskdiag_cylinders=Válce: %s 
+diskdiag_tracksPerCylinder=Skladbynaválec: %s
+diskdiag_SectorsPerTrack=Sektorůnastopu: %s
+diskdiag_BytesPerSector=Bajtůnasektor: %s
+diskdiag_heads=Hlavy: %s
+diskdiag_guid=GUID typ: %s
+diskdiag_cluster=Shluk %s
+diskdiag_zoomin=Přiblížit
+diskdiag_zoomout=Oddálit
+diskdiag_selectThisVolume=Vyberte tento objem
+diskdiag_diskview=Disk pohled
+smart_formcaption=S.M.A.R.T. - Self Monitoring Analysis Reporting Tool
+smart_diskinfo=Disk informace
+smart_attrlist=Seznam atributů
+smart_popup_copy=Kopie
+
+diskinfo_ParentBaseBlock=Začátek bloku na fyzickém disku (parentBaseBlock)
+
+diskinfo_caption=Informace o disku
+diskinfo_label=Podrobnosti o vybrané disk:
+diskinfo_columnproperty=Majetek
+diskinfo_columnvalue=Hodnota
+diskinfo_name=Jméno
+diskinfo_id=Identifikátor
+diskinfo_disktype=Typ disku
+diskinfo_parttype=Typ oddílu
+diskinfo_diskbytesize=Velikost v bytech
+diskinfo_disksize=Velikost
+diskinfo_blockcount=Blok počítat
+diskinfo_blocksize=Velikost bloku
+diskinfo_physicalblockofs=Fyzický posun bloku
+diskinfo_physicalblocksize=Fyzické velikost bloku
+diskinfo_mountpoint=Moint bod
+diskinfo_devicepath=Cestu k zařízení
+diskinfo_interface=Rozhraní
+diskinfo_isfilteredDisk=Disk filtr aktivní
+diskinfo_FilteredDiskType=Filtrované typ disku
+diskinfo_lockcount=Zámek počet
+diskinfo_lost=Tracený
+diskinfo_iswholePhysicalDisk=Celý fyzický disk
+diskinfo_errorcounter=Chyba čítače
+diskinfo_filesystemoffset=Souborovýsystém ofset
+diskinfo_numberofPartitions=Počet oddílů
+diskinfo_AutoAddBadBlocks=Auto přidat vadných
+diskinfo_AutoSkipBadBlocks=Auto Přeskočit vadných
+diskinfo_badblockcount=Počet záznamů špatných bloků manager
+diskinfo_popup_dumptolog=Ukládat logsouboru
+diskinfo_popup_copy=Kopírovat vše
+diskinfo_popup_copyrow=Kopie řádek
+diskinfo_partitionNo=-------- číslo oddílu --------
+diskinfo_FirstBlock=První blok
+diskinfo_LastBlock=Poslední blok
+diskinfo_imagefilename=Image souboru
+diskinfo_RaidProductID=-Raid výrobek id-
+diskinfo_RaidType=Raid typ
+diskinfo_RaidNumOfRotDisks=Počet otáček disků
+diskinfo_RaidRotationTranslation=Rotace překladu
+diskinfo_RaidStripeSectors=Stripe odvětví
+diskinfo_RaidParityRotation=Parita rotace
+diskinfo_RaidFirstSectors=První sektory disků
+diskinfo_ParityCheckCount=Kontrola parity počet
+diskinfo_ParityCheckFailures=Selhání kontroly parity
+diskinfo_FastBadBlockSkipping=Rychlý špatný blok přeskakování
+diskinfo_volumename=- název svazku -
+diskinfo_volumefs=Objem souborový systém
+diskinfo_volumedisk=Diskové
+diskinfo_volumeallocblocksize=Objem velikostclusteru / Alloc velikost bloku.
+diskinfo_volumeDiskOffset=Diskové ofset
+diskinfo_volumeFirstAllocBlockOfs=Ročník První ofset shluk (bytes)
+diskinfo_volumeUseMarkerBitmap=Použití značky bitmap
+diskinfo_dumpheader=Disk/Objem informací %s:
+diskinfo_FATBlockCount=FAT početbloků
+diskinfo_FATClusterCount=FAT klastrupočet
+diskinfo_FATRootDirSize=FAT kořen dir Velikost (bajtů)
+diskinfo_FATRootDirCluster=FAT kořen dir shluk
+diskinfo_FATRootDirOfs=FAT kořen dir ofset (bytes)   
+diskinfo_FATDataOfs=FAT Datová oblast ofset (bytes)
+diskinfo_NTFSSkipBadMarkedClus=NTFS Přeskočit špatné clustery označeny ($BAD)
+diskinfo_NTFSclusbitmapsize=NTFS klastrubitmap velikost
+diskinfo_NTFSRecordPoolPMFTNo=NTFS záznambazénu rodičMFT velikost
+diskinfo_NTFSRecordPoolSMFTNo=NTFS záznambazénu jáMFT velikost
+diskinfo_NTFSBootSeecValid=NTFS bootsektor platný
+diskinfo_NTFSBytesPerClus=NTFS bytů na clusteru
+diskinfo_NTFSBytesPerFileRecord=NTFS bytů na záznamu souboru
+diskinfo_NTFSBytesPerIndexBlock=NTFS bytů na index bloku
+diskinfo_NTFSMetaMftStartLcn=NTFS MFT začátekklastru
+diskinfo_NTFSMetaMftMirrorStartLcn=NTFS MFT zrcadlo začátek klastru
+diskinfo_NTFSCountOfClusters=NTFS počet klastrů
+diskinfo_NTFSTotalSectors=NTFS Počet bloků/odvětví
+diskinfo_HFSVolumeNameFound=HFS název svazku našel
+diskinfo_HFSAllocBlockCount=HFS přidělení bloku počet
+diskinfo_HFSRFARecursiveCounter=HFS RFA rekurzivní proti
+diskinfo_HFSRecCatFileNodeSize=HFS rec-cat Soubor uzlů velikosti
+diskinfo_HFSAllocFileContentsSize=HFS Obsah rozdělení velikosti souboru
+diskinfo_HFSVolumeHeaderOfs=HFS Objem header offset (bytes)
+diskinfo_EXT2superblockofs=EXT2 superbloku offset (bytes)
+diskinfo_EXT2blockgroupno=EXT2 superbloku blokskupiny číslo
+diskinfo_EXT2SparseSuper=EXT2 řídké super blok povolena funkce
+diskinfo_EXT2RevMajor=EXT2 Hlavní revize
+diskinfo_EXT2RevMinor=EXT2 Menší verzí
+diskinfo_EXT2blockcount=EXT2 počet bloků
+diskinfo_EXT2INodesPerGroup=EXT2 INodes ve skupině
+diskinfo_EXT2BlocksPerGroup=EXT2 bloků ve skupině
+diskinfo_EXT2BlockGroups=EXT2 počet skupin bloků
+diskinfo_EXT2INodeSize=EXT2 INode velikost
+diskinfo_EXT2InodesCount=EXT2 počet INodes
+diskinfo_EXT2useBlockGroupNoForDescriptors=EXT2 Počáteční blok skupiny pro čtení skupiny deskriptorů
+diskinfo_ISOVD_typ=Objem deskriptor typu
+diskinfo_ISOstd_id=Standardní ID
+diskinfo_ISOvd_vers=VD verze
+diskinfo_ISOsys_id=Systém ID
+diskinfo_ISOvol_id=Objem ID
+diskinfo_ISOvol_spc_size=Objem prostoru
+diskinfo_ISOvol_set_size=Rozměr
+diskinfo_ISOvol_seq_nr=Pořadové číslo
+diskinfo_ISOlog_blc_size=Velikost bloku
+diskinfo_ISOpth_tb_size=Velikost stolu
+diskinfo_ISOtyp_path_tb=Zadejte cestu tabulka
+diskinfo_ISOopt_path_tb=Volitelné cesta tabulka
+diskinfo_ISOvol_set_id=Soubor ID
+diskinfo_ISOpubl_id=Vydavatel ID
+diskinfo_ISOdata_prep_id=Připravit ID
+diskinfo_ISOappl_id=Aplikace ID
+diskinfo_ISOc_file_id=Soubor ID
+diskinfo_ISOabstr_file_id=Abstraktní obrázek ID
+diskinfo_ISObibl_file_id=Bibliografický soubor ID
+diskinfo_ISOvol_creat_datime=Datum vytvoření / čas
+diskinfo_ISOvol_mod_datime=Modifikace datum / čas
+diskinfo_ISOvol_expi_datime=Datum expirace / čas
+diskinfo_ISOvol_eff_datime=Efektivní datum / čas
+diskinfo_ISOfile_struct_ver=Struktura souboru version
+diskinfo_ISOxa_sign=XA podpis
+diskinfo_ISOxa_flags=XA flags
+diskinfo_ISOstartup_dir=Spouštěcí adresář
+diskinfo_UseIOCTLscsi=Use IO- ovládání SCSI rozhraní
+diskinfo_ContainsPageFile=Obsahuje stránkovací soubor
+diskinfo_Authorize=Požádat o oprávnění admin
+diskinfo_Locked=Zavřený v OS
+diskinfo_Mounted=Zvyšoval OS
+diskinfo_IsSystemVolume=Je svazek operačního systému
+
+prop_itemgrpbox=Položku vlastnosti
+prop_itemname=Název položky
+prop_itemsize=Velikost
+prop_itemid=ID
+prop_itemparentid=Rodič ID
+prop_itemFSRefBlock=Souborovýsystém ref.block
+prop_itemFSRefClus=Souborovýsystém ref.cluster
+prop_itemClass=Položka třídy
+prop_dateCreated=Datum vytvoření / čas
+prop_DateModified=Modifikace datum / čas
+prop_DateLastWrite=Poslední operace zápisu datum / čas
+prop_DateLastAccess=Poslední přístup k datu / času
+prop_firstdatablock=První blok dat
+prop_firstdataCluster=První dat clusteru
+prop_firstdataClusterHigh=První dat clusteru (High)
+prop_firstdataClusterLow=První dat clusteru (Low)
+prop_itemStatus=Stav položky
+prop_DBID=Databáze ID
+prop_DBParentID=Databáze rodiče ID
+prop_MimeType=MIME typ
+prop_ForkADSInfo=Data vidlice / ADS
+prop_attributes=Atributy
+prop_overallsize=Velikost včetně podsložek
+prop_volgrpbox=Objem vlastnosti
+prop_VolName=Ázev svazku
+prop_VolDiskOfs=Posun bajtů na disku
+prop_volClusSize=Velikost clusteru
+prop_volBytesPerFileRec=Bytů na záznamu souboru
+prop_volBytesPerIndxBlk=Bytů na index bloku
+prop_volClass=Objem třídy
+prop_volTotalCluster=Celkový počet clusterů
+prop_volBlkDiskOfs=Blok offset na disku
+prop_volStatus=Stav svazku
+prop_volPhysicalBlockOfs=Disk byte offset / řazení
+prop_volDBID=Databáze ID
+prop_formcaption=Vlastnosti
+prop_volflags=Objem vlajky
+prop_diskflags=Disk vlajky
+prop_addtoscanreport=Přidat k prohledávání zprávy
+prop_ofitem=Properties of item "%s"
+
+flag_bsrebuilt=Bootsektor tohoto svazku byl přestavěn.
+flag_mounterror=Tento objem by neměl být správně namontovat.
+flag_bsondisk=Bootsektor tohoto objemu se nachází na disku.
+flag_notyetmounted=Tento objem ještě nebyl připojen.
+flag_rootempty=Kořen tohoto objemu je prázdný.
+flag_fsreconstructed=Souborový systém tohoto objemu byl rekonstruován.
+flag_fsoriginal=Souborový systém tohoto objemu je platný a původní (před rekonstrukcí).
+flag_bsinvalid=Bootsektor tohoto množství se zdá být neplatné.
+
+class_TFATVolumeItem=FATobjemupoložky
+class_TNTFSVolumeItem=NTFSobjemupoložky
+class_THFSVolumeItem=HFSobjemupoložky
+class_TNTFSVolumeItem=NTFSobjemupoložky
+class_TEXT2VolumeItem=EXT2objemupoložky
+class_TUDFVolumeItem=UDFobjemupoložky
+class_TISOVolumeItem=ISOobjemupoložky
+class_TXFSVolumeItem=XFSobjemupoložky
+class_TUFSVolumeItem=UFSobjemupoložky
+class_TDUMMYVolumeItem=Falešnéhlasitostipoložky
+class_TRAWVolumeItem=RAWobjemupoložky
+  
+frmreport_caption=Skenování zprávy
+frmreport_btnsave=Uložit ...
+frmreport_btnprint=Tisk ...
+frmreport_btnopen=Otevřít ...
+frmreport_btnok=Ok
+frmreport_popup_copy=Kopie
+frmreport_popup_save=Uložit ...
+frmreport_popup_open=Otevřít ...
+frmreport_popup_changefont=Všechny časy jsou ...
+frmreport_popup_autoupdate=Povolit automatické aktualizace
+frmreport_header1=%globalcompanyname% - skenování zprávy \n\n
+frmreport_header2=Vytvořeno %s s software pro obnovu dat %globalproductnamelong%.
+frmreport_header3=Tato zpráva byla sestavena z log souboru:%s.\n  
+frmreport_footer1=- Konec skenování zprávy -\n
+frmreport_error=Zpráva těžbě skončil s chybami.\n
+frmreport_savedlg_title=Uložit vyhledávání zprávu
+frmreport_savedlg_filename=%globalproductnamelong% skenování zprávy %s
+frmreport_opendlg_title=Otevřete zprávu kontroly
+
+; --- disk tools strings -------------
+
+action_copydisk=Copy Disk
+action_CleanUpdisk=Cleanup Disk
+action_RefreshDisk=Refresh Disk
+
+op_disktools=Disk Tools
+op_disktools_hint=Offers disk imaging and manipulation features: Image creation and restore. Direct disk copy, wipe and view. 
+op_diskTools_LoadImage=Load Image
+op_diskTools_CreateImg=Create Image
+op_diskTools_RestoreImg=Restore Image
+op_diskTools_CopyDisk=Copy Disk
+op_diskTools_WipeDisk=Wipe Disk
+op_diskTools_ViewDisk=View Disk
+op_diskTools_RefreshDisk=Refresh Disk
+
+other_copydiskwarning=You will copy the disk "%s" to "%s". This will overwrite %s on the destination disk. Are you sure?   
+other_copyingdisk=Copying disk
+other_CopyDiskThread_finishedmsg_success=The disk has been successfully copied.
+other_CopyDiskThread_finishedmsg_error=Disk copy has failed. See log file for more information.
+
+wiz_disktools_title=Disk Tools
+wiz_disktools_subtext=Please select between the image creation or restore feature. Disk copy copies directly from source to destination disk without creating an image.
+
+wiz_disktools_choosedestVol_title=Destination disk
+wiz_disktools_choosedestVol_subtext=Please choose a destination disk where the previous selected disk will be copied to.
+wiz_selDestDisk_Note=Note: Be sure to choose a destination disk with is larger than your source disk with a size of %s.  
+wiz_destdisk_suitable=The selected destination disk is suitable for copying.
+wiz_destdisk_sameDiskError=You cannot copy directly to the same disk. In this case you must create and restore an image file.
+wiz_destdisk_tosmall=The selected destination disk is too small. Please choose another disk.
+
+op_diskTools_LoadImage_hint=Adds an image file to the disk selection list.
+op_diskTools_CreateImage_hint=Writes the selected disk to an image file. 
+op_diskTools_RestoreImage_hint=Writes an existing image file back to the selected disk. IMPORTANT: All data on the selected disk will be overwritten! Do not mix this feature with 'Load image' ! 
+op_diskTools_CopyDisk_hint=Copies the selected disk directly to another destination disk. This feature is recommended for copying large hard drives.
+op_diskTools_WipeDisk_hint=Wipes the selected disk. IMPORTANT: This will erase all data on the selected disk and you must format it again for reuse!
+op_diskTools_ViewDisk_hint=View the selected disk in a hex editor and search manually for data.
+op_diskTools_RefreshDisk_hint=Refresh the selected disk. Use this feature for archive media to safely rewrite and verify all data blocks.
+
+; ----------------
+; other new strings
+prop_itemFSRefOffset=Filesystem reference offset
+prop_itemFSChainStart=Filesystem data chain start
+prop_fattype=FAT Type
+prop_fat_usefatno=FAT number used
+
+diskinfo_FATType=FAT Type
+diskinfo_FATUseNo=FAT number used
+diskinfo_FATenableReverseLookupTable=Enable Reverse Lookup Table
+
+;-------
+op_diskTools_CleanupDisk=Cleanup disk
+op_diskTools_CleanupDisk_hint=This is a security feature. It overwrites all deleted and lost files (not the existing files!) on the selected disk, so that are irrecoverable removed. Use this feature if you want to get sure that no other people can read your deleted files with recovery tools. 
+other_cleanupdiskwarning=You will cleanup the disk "%s" (%s). This will overwrite all deleted and lost files on it, so that are irrecoverable removed.\nProceed?   
+other_CleanupDiskThread_finishedmsg_success=The disk has been successfully cleaned.
+other_CleanupDiskThread_finishedmsg_error=Disk cleanup has failed. See log file for more information.
+other_cleanupErrorDiskphys=You cannot cleanup a whole physical disk or a volume, which is formatted with a filesystem not supported by your operating system. Please select a valid logical volume on your disk or choose the wipe-disk feature.
+other_cleanupErrorNoTestFileCreation=Error creating a test file on your selected disk. Check that you have write privileges and that your operating system supports the filesystem of the selected volume.
+other_cleaningdisk=Cleaning disk
+;----
+other_wipedeletedLostwarningProgramVol=For program security it is not possible to wipe deleted or lost files located on a volume this software is executed from. Please install this software to another volume and try again. 
+other_wipedeletedLostwarning=WARNING: The disk your selected items are located on will be unmounted in the next step. Please close now all other applications and files accessing disk "%s". Proceed with next step?  
+other_writetoOSdrivenotpossible=Writing directly to the volume which contains the operating system is not possible in Windows Vista/7. Cannot continue operation.
+other_writetophysdisknotpossible=Writing directly to a physical disk which has mounted volumes is not possible in Windows Vista/7. IMPORTANT: You have to close ALL applications accessing this physical disk. Only then the volumes on this disk can be unmounted. Do you want to try again?
+
+other_writingOnOsDrvNotPossible=Test write operation failed. Note: Writing data blocks to the disk which contains the operating system is not possible due to security reasons.
+other_RefreshDiskThread_finishedmsg_success=Refresh operation successfully finished. 
+other_RefreshDiskThread_finishedmsg_error=Refresh operation finished with errors. Please open the log file for detailed information.
+other_refreshingdisk=Refreshing disk
+other_closeAllApps=Please close all applications accessing disk "%s". Continue operation?
+ 
+;---- 
+
+remoterec_terminate=Process %s is still running. Shall the process be terminated?
+other_waitForTreeExpanding=Expanding treeview. Please wait...
+
+; ----------------
+; pop-up box to contact support
+
+badblocks_popup=Bad blocks have been detected. WARNING: Continuing to operate your system may damage your hard drive beyond repair or cause irretrievable data loss. Please contact product support to further assist you with this recovery scenario.
+badblocks_clickhere=Click here
+
+smart_idvalue=ID value
+smart_name=Name
+smart_currentvalue=Current value
+smart_worstvalue=Worst value
+smart_treshold=Threshold
+smart_status=Status
+smart_rawvalue=Raw value
+
+; -----------------
+; new diskviewer translations 20.11.2012
+diskviewer_selection=výběr:
+diskviewer_menu_search=&hledat
+diskviewer_menu_settings=&nastavenφ...
+diskviewer_menu_results=&seznam výsledků...
+diskviewer_menu_edit=&upravit
+diskviewer_menu_setSelStart=&začátek Set výběr
+diskviewer_menu_setSelEnd=&nastavit výběr konec
+diskviewer_menu_selectAll=&vybrat vÜe
+diskviewer_menu_dumpSelToLog=v&olba kopírovat do souboru protokolu
+diskviewer_menu_dumpSelToClipBrd=&kopírování výběru do schránky
+diskviewer_menu_copySelToFile=&Uložit výběr jako binární soubor
+
+diskviewer_popup_setsearchstart=začátek Set hledání na pozici kurzoru
+diskviewer_popup_search=výběr/pokračovat
+diskviewer_popup_setselstart=&začátek Set výběr
+diskviewer_popup_setselend=&nastavit výběr konec
+diskviewer_popup_selall=&vybrat vÜe
+diskviewer_popup_dumpToClipbrd=&kopírování výběru do schránky
+diskviewer_popup_saveSelAsBinToFile=&Uložit výběr jako binární soubor
+
+diskviewer_ofsfrm_caption=seznam výsledků
+diskviewer_btnDumpToClipBrd=výpis do schránky
+
+diskviewer_searchfrm_caption=nastavení hledání
+diskviewer_cbIgnoreCase=ignorovat případ
+diskviewer_cbOnlyAtBlkOfs=hledat v bloku odsazení:
+
+diskviewer_ofsdump_title=seznam výsledků hledání posun disku: "%s"
+diskviewer_ofsdump_ansistr=hledaný řetězec (ANSI): %s
+diskviewer_ofsdump_hexstr=pole hledání (HEX): %s
+diskviewer_ofsdump_numEntries=počet položek uvedených v seznamech: %d
+diskviewer_ofsdump_entry=položky č. %d: offset=%s, délka=%d
+
+; new translations for database implementation 09.01.2013
+opt_tabSheetDBOptions=Možnosti databáze
+opt_tabSheetDBOptions_lblDBopt=Databáze programu uloží výsledky kontroly a umožňuje zastavit a pokračovat v prohledávání. 
+opt_tabSheetDBOptions_cbUseDB=Použití databáze
+opt_tabSheetDBOptions_lblDBFolder=Složka databáze:
+opt_tabSheetDBOptions_btnSelFolder=Vybrat složku
+opt_tabSheetDBOptions_lblDBAttn=Upozornění: Když se používá databáze, jej může přepsat odstraněné soubory, které musí být vráceny. Nezapomeňte nastavit složku databáze na svazku není určen pro obnovu dat!
+opt_tabSheetDBOptions_selDirDlgTitle=Vyberte adresář pro databázi
+
+db_security_question=Důležité upozornění: Je aktivována funkce databáze. Tato funkce automaticky ukládá průběh skenování do "%s". Neuhrazené soubory by mohl do přepsán databáze.\nChcete nastavit jinou cestu k databázi nebo zakázat funkci databáze? (Ano je doporučeno!)
+
+db_open=Otevřít vyhledávání
+db_resume=Pokračovat v prohledávání
+db_headerinfo=Informace v záhlaví databáze
+db_handlerfile=Popisovač ID %d, název třídy: %s, název souboru: %s, název tabulky: %s
+db_handlerinfo=Počet položek: %d
+
+progressfrm_estimatedelapsedtime=Odhadovaný zbývající čas: %s, uplynulý čas: %s
+
+; new translations for disabling different savepath destinations 27.07.2013
+other_savetoOSdisk_notallowed=Uložení na disk operačního systému není povolena.
+other_savetoOSvol_notallowed=Úspory na svazku operačního systému není povolena.                              id-event.fc-short .fc-time,
+.fc-time-grid-event.fc-short .fc-title {
+	/* put the time and title on the same line */
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fc-time-grid-event.fc-short .fc-time span {
+	display: none; /* don't display the full time text... */
+}
+
+.fc-time-grid-event.fc-short .fc-time:before {
+	content: attr(data-start); /* ...instead, display only the start time */
+}
+
+.fc-time-grid-event.fc-short .fc-time:after {
+	content: "\000A0-\000A0"; /* seperate with a dash, wrapped in nbsp's */
+}
+
+.fc-time-grid-event.fc-short .fc-title {
+	font-size: .85em; /* make the title text the same size as the time */
+	padding: 0; /* undo padding from above */
+}
+
+/* resizer */
+
+.fc-time-grid-event .fc-resizer {
+	position: absolute;
+	z-index: 3; /* above content */
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 8px;
+	overflow: hidden;
+	line-height: 8px;
+	font-size: 11px;
+	font-family: monospace;
+	text-align: center;
+	cursor: s-resize;
+}
+
+.fc-time-grid-event .fc-resizer:after {
+	content: "=";
+}

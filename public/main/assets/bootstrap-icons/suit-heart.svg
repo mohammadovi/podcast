@@ -1,0 +1,19 @@
+的列頭。
+   </font></td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+    <b>彈出菜單:  </b>
+	大多數恢復操作都能通過彈出式菜單執行。在文件列表裡用鼠標右鍵點擊一個選中的文件或者目錄，將會出現彈出菜單。
+	</font><br><p></p></td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%"><font size="2"><b>瀏覽文件: </b>&nbsp;
+			</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+            內置的瀏覽器將會在一個單獨的窗口中顯示普通文件格式。因為對於大多數類型的文件，
+			瀏覽器需要在您的系統盤上創建一個臨時文件，所以如果您需要恢復您的系統盤上的文件的話則不推薦使用該選項。
+			否則的話，產生的臨時文件可能會覆蓋您刪除的數據。
+			</font><br><p></p></td>
+			</tr>
+		<tr>
+			<td colspan="2" width="100%"><font face="Verdana, Arial, Hel

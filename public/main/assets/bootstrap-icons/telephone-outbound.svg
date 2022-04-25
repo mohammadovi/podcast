@@ -1,0 +1,42 @@
+﻿; ER/FRC translation file
+; Simplified Chinese
+; Note for translators:
+;
+; * Please *only* translate the text after the equal sign symbol ('=') in each row.  
+; * Please do *not* remove any symbols or placeholders (like  &, %s, %d, \n, etc.) 
+;   in your translated text - they are required to be found in your translation too.   
+; Thank you!      
+
+[main]
+
+gui_OK=确定
+gui_Cancel=取消
+gui_Yes=是
+gui_No=不是
+gui_YesToAll=所有都是
+gui_NoToAll=所有都不是
+gui_Ignore=忽略
+gui_Close=关闭
+gui_Exit=退出
+gui_Warning=警告
+gui_Error=错误
+gui_Information=信息
+gui_Confirmation=确认
+gui_Progress=进度...
+gui_pleasewait=请等待...
+gui_help=帮助
+
+build_DEMO=评价
+
+action_about=关于
+action_buynow=购买
+action_upgrade=更新
+action_createimage=创建映像文件
+action_exit=退出
+action_help=帮助
+action_loadimage=调入映像文件
+action_options=选项
+action_raid=RAID重构器
+action_rescan=重新扫描
+action_save=保存
+action_opensavepath=打开

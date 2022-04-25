@@ -1,0 +1,21 @@
+�表
+diskinfo_ISOvol_set_id=集 ID
+diskinfo_ISOpubl_id=發布者 ID
+diskinfo_ISOdata_prep_id=準備 ID
+diskinfo_ISOappl_id=應用程序 ID
+diskinfo_ISOc_file_id=文件 ID
+diskinfo_ISOabstr_file_id=摘要文件 ID
+diskinfo_ISObibl_file_id=書目檔案文件 ID
+diskinfo_ISOvol_creat_datime=創建日期/時間
+diskinfo_ISOvol_mod_datime=修改日期/時間
+diskinfo_ISOvol_expi_datime=過期日期/時間
+diskinfo_ISOvol_eff_datime=有效日期/時間
+diskinfo_ISOfile_struct_ver=文件結構版本
+diskinfo_ISOxa_sign=XA 簽名
+diskinfo_ISOxa_flags=XA 標誌
+diskinfo_ISOstartup_dir=啟動目錄
+
+diskinfo_UseIOCTLscsi=使用IO控制SCSI接口
+diskinfo_ContainsPageFile=包含頁面文件
+diskinfo_Authorize=詢問管理員授權
+diskinfo_Locked=鎖�

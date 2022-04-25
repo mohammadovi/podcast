@@ -1,0 +1,29 @@
+żka urządzenia: %s
+diskdiag_recoveryStatus=Status odzyskiwania: %s
+diskdiag_statusNormal=Zwykłe
+diskdiag_statusLost=Utracone
+diskdiag_cylinders=Cylindry: %s 
+diskdiag_tracksPerCylinder=Ścieżki na cylinder: %s
+diskdiag_SectorsPerTrack=Sektory na ścieżkę: %s
+diskdiag_BytesPerSector=Bajty na sektor: %s
+diskdiag_heads=Głowice: %s
+diskdiag_guid=typ GUID: %s
+diskdiag_cluster=Klaster %s
+diskdiag_zoomin=Zbliżenie
+diskdiag_zoomout=Oddalenie
+diskdiag_selectThisVolume=Wybierz tą partycję
+diskdiag_diskview=Podgląd dysku
+
+smart_formcaption=S.M.A.R.T. - Self Monitoring Analysis Reporting Tool
+smart_diskinfo=Informacje dyskowe
+smart_attrlist=Lista atrybutów
+smart_popup_copy=&Kopiuj
+
+diskinfo_ParentBaseBlock=Blok startowy na dysku fizycznym (parentBaseBlock)
+
+diskinfo_caption=Informacje o dysku
+diskinfo_label=Szczegóły wybranego dysku:
+diskinfo_columnproperty=Właściwości
+diskinfo_columnvalue=Wartość
+diskinfo_name=Nazwa
+diskinfo_id=Indety

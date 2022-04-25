@@ -1,0 +1,20 @@
+bout_copyright=LC Technology International, Inc.\n保留所有权利.
+about_builddate=创建日期:
+about_law=本计算机软件受版权法和国际公约保护。未经本公司授权，复制和传播本软件的部分或者全部可能导致严重的民事和刑事处罚。
+
+
+raid_caption=重新构造RAID
+raid_about=RAID重构将通过整理RAID磁盘组件帮助您重建一个被损坏的RAID系统。如果您不知道您的RAID系统的参数，您只需要输入下列参数，然后右边的探测器可以尝试找回丢失的参数。
+raid_selectnumber=选择在您的RAID阵列中的组件数量:
+raid_disks=# 磁盘:
+raid_selectcomponents=选择RAID阵列的组成部分:
+raid_choosedisks=选择磁盘
+raid_startsectors=开始扇区:
+raid_stripesize=条带大小（扇区）:
+raid_parityrotation=奇偶轮换:
+raid_findparams=正在查找RAID参数（可选）
+raid_findabout=如果您不知道您的RAID参数，这会扫描您的组件，并设法找到丢失的RAID参数。
+raid_startscan=开始扫描
+raid_cancelscan=取消扫描
+raid_scanning=扫描组件... 请等待!
+raid_choosecombinat

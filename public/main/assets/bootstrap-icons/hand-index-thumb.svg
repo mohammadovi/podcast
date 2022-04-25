@@ -1,0 +1,24 @@
+pplication was successfully reset.
+ql_ret_void=The Ticket for this application has been voided due to numerous unsuccessful reset attempts. Contact vendor to request a new Ticket.
+ql_ret_toomanyresets=The application Ticket has been successfully reset 8 times.  It cannot be used with the same Ticket file name on this computer.
+ql_ret_invalidpassword=An invalid password was entered.
+ql_ret_invalidtimedate=The time or date on this computer is not correct. Please set the correct time and date, then restart the computer.
+ql_ret_invalidsubscriptioncode=An invalid subscription code was entered.
+
+; some custom translation strings
+
+ql_couldnotrunrt=Could not run QuickLicenseRT application
+ql_activationerror=Activation Error
+ql_retryactivation=Retry Activation?
+ql_yes=Yes
+ql_no=No
+
+
+error_license=There is a problem with your license file. Please contact software distributor.
+
+other_licensefound=License found:
+other_licenseInUse=Program information:
+other_product=Product:
+other_type=Type:
+other_machines=Machines:
+other_subscriptiondays=Subscri

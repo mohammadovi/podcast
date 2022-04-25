@@ -1,0 +1,19 @@
+kdiag_physicaldisk=Physical disk: %s
+diskdiag_logicalvolume=Logical volume: %s
+diskdiag_errorcounter=Error counter: %s
+diskdiag_filesystemoffset=File system offset: %s
+diskdiag_partitiontype=Partition type: %s
+diskdiag_devicePath=Device path: %s
+diskdiag_recoveryStatus=Recovery status: %s
+diskdiag_statusNormal=Normal
+diskdiag_statusLost=Lost
+diskdiag_cylinders=Cylinders: %s 
+diskdiag_tracksPerCylinder=TracksPerCylinder: %s
+diskdiag_SectorsPerTrack=SectorsPerTrack: %s
+diskdiag_BytesPerSector=BytesPerSector: %s
+diskdiag_heads=Heads: %s
+diskdiag_guid=GUID type: %s
+diskdiag_cluster=Cluster %s
+diskdiag_zoomin=Zoom in
+diskdiag_zoomout=Zoom out
+diskdiag_selectThisVo

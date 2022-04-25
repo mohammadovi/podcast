@@ -1,0 +1,12 @@
+��面的网站链接。
+remoteview_noconnection=如果您的远程伙伴不能建立连接，您应当检查上面显示的端口号的端口转发和防火墙设置。
+remoteview_bottom=如果您的远程伙伴连接成功，会自动打开一个新窗口显示他的桌面。
+remoteview_portnum=您的端口号是:
+remoteview_startviewer=启动查看器
+remoteview_stopviewer=停止查看器
+
+demomsgstart=本软件的演示版本有如下限制: 
+demomsgfiles=%d 文件
+demomsgmaxfilesize=最大文件长度 %d K字节
+demomsgtotalamount=每用户总数 %d K字节.
+demomsgend=您已经用�

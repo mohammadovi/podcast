@@ -1,0 +1,32 @@
+﻿[main]
+
+gui_OK=Aceptar
+gui_Cancel=Cancelar
+gui_Yes=Sí
+gui_No=No
+gui_Warning=Aviso
+gui_Error=Error
+gui_Information=Información
+gui_Confirmation=Confirmación
+gui_Progress=Progreso
+gui_Close=Cerrar
+gui_Exit=Salir
+
+serial_title=Entre el Clave de licencia
+serial_text=Entre el Clave de licencia
+serial_invalid=El Clave de licencia esta invalido. Inténtelo de nuevo.
+serial_require=Esta aplicación necesita introducir un Clave de licencia para continuar. 
+serial_skip=Ejecutar la Evaluación
+
+
+build_DEMO=VERSIÓN DE EVALUACIÓN
+build_FULL=
+build_FULLSN=
+
+ql_success=Esta aplicación ha sido activado con éxito.
+ql_willexpire=Esta aplicación expirará a más tardar
+ql_computerdate=Su computadora tiene una fecha actual de
+ql_activatenowquestion=¿Quieres activar la aplicación ahora?
+ql_activation=Activación
+ql_activatelater=Ejecutar la Evaluación
+ql_activatenow=A

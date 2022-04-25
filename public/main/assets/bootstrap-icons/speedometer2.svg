@@ -1,0 +1,32 @@
+<tbody><tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>
+			菜單條</b></font>
+			</p></td>
+			<td valign="top">&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>文件：</b><br>通過文件菜單，您能：</font>
+
+	        </p>
+	        </td>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+		 刷新磁盤列表- 重新檢查系統可以識別的磁盤。<br>
+		 保存恢復報告- 保存選擇文件的報告，包括屬性。
+		 <br>
+		 退出 - 退出程序。
+		 </font>&nbsp;
+			<br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>編輯：</b><br>通過編輯菜單，您能：</font>
+	        

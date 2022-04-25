@@ -1,0 +1,16 @@
+
+		<p><img src="../images/lostvolumescan.png" align="left" border="0"><font face="Verdana" size="2">
+   如果您在第2步選擇了一個磁盤而不是卷，那麼您將沒有瀏覽選項，因為您沒有選擇一個顯示在系統上的捲。
+   您將得到搜索磁盤上的丟失的捲的選項。這有利於從文件系統被損壞或卷被刪除的驅動器中恢復卷。
+   您再次得到限制正在搜索的文件系統的選項。因為這是搜索丟失的捲，所以沒有提供RAW文件系統掃描</font></p>
+		
+		
+    	</td>
+    <td style="text-align: center;" height="415" width="66%"><img src="../images/user3a.png"><br><br></td>
+  </tr>
+  <tr>
+    <td width="34%">
+		<p><font face="Verdana" size="2">
+ 當掃描丟失的捲完成後，您將回到第2步，在此要求您選擇要掃描的捲。如果該程序能夠找到丟失的捲，那麼它會顯示一個綠色的圖標。
+  </font></p>
+		<p><font face="Verdana"

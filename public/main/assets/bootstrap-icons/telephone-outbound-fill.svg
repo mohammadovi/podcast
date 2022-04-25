@@ -1,0 +1,17 @@
+y selection to &log file
+diskviewer_menu_dumpSelToClipBrd=Copy selection to &clipboard
+diskviewer_menu_copySelToFile=Save selection as &binary file
+
+diskviewer_popup_setsearchstart=Set search start at cursor position
+diskviewer_popup_search=Search/Continue
+diskviewer_popup_setselstart=Set selection &start
+diskviewer_popup_setselend=Set selection en&d
+diskviewer_popup_selall=Select &all
+diskviewer_popup_dumpToClipbrd=Copy selection to &clipboard
+diskviewer_popup_saveSelAsBinToFile=Save selection as &binary file
+
+diskviewer_ofsfrm_caption=Result list
+diskviewer_btnDumpToClipBrd=Dump to clipboard
+
+diskviewer_searchfrm_caption=Search settings
+diskviewer_cbIgnoreCa

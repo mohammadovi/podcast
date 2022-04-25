@@ -1,0 +1,10 @@
+11-03 20:55:31 --- [Debug: ---------------------------------Start----------------------------]
+11-03 20:55:31 --- [Debug: Program Version: "8.2.5.6"]
+11-03 20:55:31 --- [Debug: Windows Version: "Win10_OS64Bits"]
+11-03 20:55:31 --- [Debug: ----------------------------------------------------------------]
+11-03 20:55:31 --- [Debug: SplashScreen Start.]
+11-03 20:55:34 --- [Debug: Ws_AntiPiracyInit: Begin]
+11-03 20:55:34 --- [Debug: Ws_AntiPiracyInit: End]
+11-03 20:55:34 --- [Debug: Load WsDataRecoveryLib.dll Start]
+11-03 20:55:34 --- [Debug: EnumDeviceCallBack OnStart]
+11-03 20:55:35 --- [Debug: EnumDevice

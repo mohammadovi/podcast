@@ -1,0 +1,10 @@
+C Technology International, Inc.\n保留所有權利.
+about_builddate=創建日期:
+about_law=本計算機軟件受版權法和國際公約保護。未經本公司授權，複製和傳播本軟件的部分或者全部可能導致嚴重的民事和刑事處罰。
+
+
+raid_caption=重新構造RAID
+raid_about=RAID重構將通過整理RAID磁盤組件幫助您重建一個被損壞的RAID系統。如果您不知道您的RAID系統的參數，您只需要輸入下列參數，然後右邊的探測器可以嘗試找回丟失的參數。
+raid_selectnumber=選擇在您的RAID陣列中的組件數量:
+raid_disks=# 磁盤:
+ra

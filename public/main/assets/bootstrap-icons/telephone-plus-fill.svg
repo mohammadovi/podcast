@@ -1,0 +1,10 @@
+��证书管理器导出您的 NTFS 证书,\n 如果您想在另外一台机器上导入 $EFS 文件的话.
+efsexport_fail=导出 $EFS 文件失败. 错误代码 =%d.  
+efsimport_good=已经导入 $EFS 文件. 为了防止导入的文件是无效的, 您必须导入此机器有效的NTFS证书。\n 使用源PC上的证书管理器来导出原始的NTFS证书。
+efsimport_fail=导入 $EFS 文件失败. 错误代码 =%d. 
+
+popupmenuprogress_nexterr=进入下一个错误入口
+popupmenuprogress_openlogpath=打开日志文件路径
+popupmenuprogress_maillog=发送日志文件到邮件 %s
+popupmenuprogress_copy=复制到剪贴板
+popupmenuprogress_scro

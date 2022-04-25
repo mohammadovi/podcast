@@ -1,0 +1,21 @@
+TotalSectors=NTFS count of blocks/sectors
+
+diskinfo_HFSVolumeNameFound=HFS volume name found
+diskinfo_HFSAllocBlockCount=HFS allocation block count
+diskinfo_HFSRFARecursiveCounter=HFS RFA recursive counter
+diskinfo_HFSRecCatFileNodeSize=HFS rec-cat file node size
+diskinfo_HFSAllocFileContentsSize=HFS contents allocation file size
+diskinfo_HFSVolumeHeaderOfs=HFS volume header offset (bytes)
+  
+diskinfo_EXT2superblockofs=EXT2 superblock offset (bytes)
+diskinfo_EXT2blockgroupno=EXT2 superblock blockgroup number
+diskinfo_EXT2SparseSuper=EXT2 sparse super block feature enabled
+diskinfo_EXT2RevMajor=EXT2 Revision Major
+diskinfo_EXT2RevMinor=EXT2 Revision Minor
+diskinfo_EXT2blockcount=EXT2 block count
+diskinfo_EXT2INodesPerGroup=EXT2 INodes per group
+diskinfo_EXT2BlocksPerGroup=EXT2 blocks per group
+diskinfo_EXT2BlockGroups=EXT2 number of block groups
+diskinfo_EXT2INodeSize=EXT2 INode size
+diskinfo_EXT2InodesCount=EXT2 number of INodes
+diskinfo_EXT2useBlockGroupNoForDescriptors=EXT2 Initial block group f

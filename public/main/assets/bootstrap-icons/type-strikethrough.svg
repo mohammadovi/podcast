@@ -1,0 +1,15 @@
+除列表
+diskviewer_btnClose=關閉
+diskviewer_btnStopSearch=停止搜索
+diskviewer_btnContinueSearch=繼續搜索
+diskviewer_msgwrongchar=字符錯誤 %s.
+diskviewer_caption=磁盤瀏覽器
+diskviewer_byteoffset=字節偏移:
+diskviewer_blockoffset=區塊偏移:
+diskviewer_diskblock=磁盤區塊:
+
+diskviewer_editSearchHint=輸入十六進製或普通的字符串; 為某塊偏移追加'：'
+diskviewer_popup_setsearchstart=設置光標位置為搜索位置
+diskviewer_popup_search=搜索/繼續
+diskviewer_popup_stopsearch=停止搜索
+diskviewer_popup_addofs=

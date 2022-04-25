@@ -1,0 +1,59 @@
+n bezpieczeństwa.
+other_RefreshDiskThread_finishedmsg_success=Operacja odświeżania zakończona pomyślnie. 
+other_RefreshDiskThread_finishedmsg_error=Operacaj doświeżania została ukończona z błędami. otwórz plik z rejestrem zdarzeń aby poznać więcej szczegółów.
+other_refreshingdisk=Odświeżanie dysku
+other_closeAllApps=Zamknij wszystkie aplikacje uzyskujące dostęp do dysku "%s". Kontynuować operację?
+
+;---- 
+
+remoterec_terminate=Proces %s jest ciągle aktywny. Czy przerwać proces?
+other_waitForTreeExpanding=Przygotowywanie drzewa katalogów. Proszę czekać...
+
+; ----------------
+; pop-up box to contact support
+
+badblocks_popup=Wykryto uszkodzone sektory. Skontaktuj się z działem wsparcia technicznego, aby poznać możliwe scenariusze dotyczące odzyskiwania danych.
+badblocks_clickhere=Kliknij tutaj
+
+smart_idvalue=Wartość ID
+smart_name=Nazwa
+smart_currentvalue=Aktualna wartość
+smart_worstvalue=Najgorsza wartość
+smart_treshold=Rozpoczęcie
+smart_status=Status
+smart_rawvalue=Surowe wartości
+
+; -----------------
+; new diskviewer translations 20.11.2012
+diskviewer_selection=wybór:
+diskviewer_menu_search=&Szukaj
+diskviewer_menu_settings=&ustawienia...
+diskviewer_menu_results=Lis&ta wyników...
+diskviewer_menu_edit=Edytu&j
+diskviewer_menu_setSelStart=&Ustaw wybór start
+diskviewer_menu_setSelEnd=&koniec zestaw wyboru
+diskviewer_menu_selectAll=&Zaznacz wszystko
+diskviewer_menu_dumpSelToLog=K&opiuj zaznaczenie pliku dziennika
+diskviewer_menu_dumpSelToClipBrd=Ko&piuj zaznaczenie do schowka
+diskviewer_menu_copySelToFile=Zapisz zaz&naczenie jako pliku binarnego
+
+diskviewer_popup_setsearchstart=Ustaw Szukaj start w pozycji kursora
+diskviewer_popup_search=Szukaj/Kontynuuj
+diskviewer_popup_setselstart=&Ustaw wybór start
+diskviewer_popup_setselend=&koniec zestaw wyboru
+diskviewer_popup_selall=Zaznac&z wszystko
+diskviewer_popup_dumpToClipbrd=K&opiuj zaznaczenie do schowka
+diskviewer_popup_saveSelAsBinToFile=Zap&isz zaznaczenie jako pliku binarnego
+
+diskviewer_ofsfrm_caption=Lista wyników
+diskviewer_btnDumpToClipBrd=zrzut do schowka
+
+diskviewer_searchfrm_caption=ustawienia wyszukiwania
+diskviewer_cbIgnoreCase=Ignoruj przypadek
+diskviewer_cbOnlyAtBlkOfs=Szukaj w bloku przesunięcie:
+
+diskviewer_ofsdump_title=odsunięcie wyniki wyszukiwania dysku: "%s"
+diskviewer_ofsdump_ansistr=ciąg wyszukiwania (ANSI): %s
+diskviewer_ofsdump_hexstr=pola wyszukiwania (HEX): %s
+diskviewer_ofsdump_numEntries=Liczba pozycji na liście: %d
+diskviewer_ofsdu

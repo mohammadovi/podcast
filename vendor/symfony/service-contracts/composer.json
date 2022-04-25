@@ -1,0 +1,28 @@
+]></Text>
+        <Margins Left="0" Top="150" Width="140" Height="24"/>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CSelectPathDialog">
+      <Control ClassName="m_BtnCancel" ControlType="13">
+        <Text><![CDATA[Cancel]]></Text>
+      </Control>
+      <Control ClassName="Btn_Ok" ControlType="13">
+        <Text><![CDATA[OK]]></Text>
+      </Control>
+      <Control ClassName="m_LabTitle" ControlType="1">
+        <Text><![CDATA[Select a location for recovery.]]></Text>
+      </Control>
+    </Dialog>
+    <Dialog ClassName="CUnRegisterHint">
+      <Control ClassName="m_closeButton" ControlType="13">
+        <StatusTip StatusTipStr ="Close"/>
+      </Control>
+      <Control ClassName="m_strHead" ControlType="11">
+        <Text><![CDATA[ to save.]]></Text>
+      </Control>
+      <Control ClassName="m_str1" ControlType="11">
+        <Text><![CDATA[To completely recover your files, please register Wondershare]]></Text>
+      </Control>
+      <Control ClassName="m_str2" ControlType="11" >
+        <Text><![CDATA[Data Recovery. If you don't have a registration code, you can]]></Text>
+      </

@@ -1,0 +1,17 @@
+ate installation has been executed. Please close this window after the installation has finished.
+btn_paste=Paste
+
+; ---- new: USB plugin binding
+tabsheet_plugin=Device binding
+
+plugin_label1=The license type of this product requires binding the license to a removable device (USB Stick, USB harddisk, etc.).
+plugin_label2=Please attach this device now and wait until the program continues. If the device is already attached, remove it and plug it in again.
+plugin_note=Note: The license will be permanently bound to the device. Do not remove the device during the activation process.\nIf you do not have a removable device at hand, you can also activate your product later.\nIn this case you can simply close this application. 
+plugin_labelstatushdr=Status:
+plugin_status_needDevice=Please plug in an USB device.
+plugin_status_newDev=New USB device plugged in, waiting for mount process from operating system.
+plugin_status_mounted=USB device mounted to: %s.
+plugin_status_plugout=USB device plugged out.
+plugin_status_writing=Writing license...
+plugin_status_verify=Verifying operation
+plugin_

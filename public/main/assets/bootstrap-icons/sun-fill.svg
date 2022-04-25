@@ -1,0 +1,13 @@
+e export also your NTFS certificate with the certificate manager,\n if you want to import the $EFS file(s) on another machine.
+efsexport_fail=Export to $EFS file(s) failed. Errorcode=%d.  
+efsimport_good=$EFS file(s) imported. In case the imported file is not valid, you must import a valid NTFS certificate on this machine.\n Use the certicate manager on the source PC to export the original NTFS certifcate. 
+efsimport_fail=Import from $EFS file(s) failed. Errorcode=%d. 
+
+popupmenuprogress_nexterr=&Go to next error entry
+popupmenuprogress_openlogpath=Open &logfile path
+popupmenuprogress_maillog=&Mail logfile to %s
+popupmenuprogress_copy=&Copy to clipboard
+popupmenuprogress_scrollstopstart=&Stop/Resume scrolling
+
+progressfrm_btncancel=Cancel
+progressfrm_btnpause=Pause

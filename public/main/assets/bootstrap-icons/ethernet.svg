@@ -1,0 +1,21 @@
+zkennelési sebesség a nagy hibás média sok rossz
+blokkok egy kérdés.<br>
+        <br>
+A lemez hiba számlálót a bal alsó részén található állapotsor
+növekszik, valahányszor egy olvasási m&#369;velet nem sikerült. A naplófájl
+tartalmazza a részletes információ a hibás blokkokat találtak.<br>
+        <br>
+Fontos megjegyzés a sérült média / hibás lemezek: Javasoljuk, hogy
+készítsen egy képet a hibás / sérült tartalmazó korong hibás blokkokat.
+A hibás blokkok száma növekszik minden egyes alkalommal, amikor egy
+olvasási m&#369;veletet végre hibás média. A legjobb és legbiztonságosabb
+megoldás ebben az esetben a beállítás az égési / blokkméretet 512-4096
+bytes (4096 bytes gyorsabb, de kevésbé megbízható), és a kép az egész
+lemezt egy küls&#337; fájlt.</small><br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 506px; height: 279px;" alt="" src="../images/bad%20block%20mgmt.png"><br>
+        </td>
+      </tr>
+
+		</tbody></table>
+	<p align=

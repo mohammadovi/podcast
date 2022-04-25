@@ -1,0 +1,17 @@
+; probe parameters for a RAID product - 
+;
+; a product entry can use another entry for default parameters - 
+; this is useful if some entries share some parameters, 
+; so that the shared parameters can be moved to a common entry  
+; example:
+;   
+;  [common1]             <== this defines a common entry with a defaultFirstSector
+;  defaultFirstSector=0  
+;
+;  [entry1]
+;  defaults=common1      <== this will use all parameters of common1 
+;  defaultStripeSize=32  <== a new or overriden parameter 
+;
+;  [entry2]
+;  defaults=common1 common2    <== this will use all parameters of common1 and then all parameters of common2 
+;  defaultStripeSize

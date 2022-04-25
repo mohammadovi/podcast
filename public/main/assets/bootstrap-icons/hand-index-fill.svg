@@ -1,0 +1,26 @@
+﻿[main]
+
+gui_OK=OK
+gui_Cancel=Cancel
+gui_Yes=Yes
+gui_No=No
+gui_Close=Close
+gui_Exit=Exit
+gui_Warning=Warning
+gui_Error=Error
+gui_Information=Information
+gui_Confirmation=Confirmation
+gui_Progress=Progress...
+
+serial_require=This application requires entering a License Key to continue.
+serial_title=License Key
+serial_text=Enter License Key
+serial_invalid=Invalid License Key. Please try again.
+serial_skip=Run as Evaluation
+
+
+
+; QuickLicense translation strings (UTF-8)
+
+ql_success=This application has been successfully activated.
+ql_willexpire=This application will ex

@@ -1,0 +1,19 @@
+ings -------------
+
+action_copydisk=复制磁盘
+action_CleanUpdisk=清理磁盘
+action_RefreshDisk=刷新磁盘
+
+op_disktools=磁盘工具
+op_disktools_hint=提供磁盘成像和处理功能：图像创建和恢复。直接磁盘拷贝，擦拭和看法。 
+op_diskTools_LoadImage=加载图像
+op_diskTools_CreateImg=创建图像
+op_diskTools_RestoreImg=恢复图像
+op_diskTools_CopyDisk=复制磁盘
+op_diskTools_WipeDisk=擦除磁盘
+op_diskTools_ViewDisk=查看磁盘
+op_diskTools_RefreshDisk=刷新磁盘
+
+other_copydiskwarning=您将复制的磁盘 "%s" 到 "%s".这将覆盖 %s 在目标磁盘上。你肯定吗？   
+other_copyingdisk=复制磁盘
+other_CopyDiskThread_finishedmsg_success=该硬盘已经

@@ -1,0 +1,970 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>FILERECOVERY Help</title>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head><body bgcolor="#ffffff">
+<p><font face="Verdana, Arial, Helvetica, sans-serif"><b><font color="#006666" size="+1">
+<a name="top"></a>Kullan&#305;m K&#305;lavuzu</font></b></font></p>
+<p><b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Içindekiler</font></b></p>
+<table border="0" cellpadding="2" width="100%">
+	<tbody><tr>
+		<td width="50%">
+<blockquote>
+  <p><img src="../images/topic.gif"> <a href="#start"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+    Ba&#351;lamadan önce</font></a><br>   
+    <img src="../images/topic.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	<a href="#userinterface">Kullan&#305;c&#305; arayüzü</a></font><br>	
+    <img src="../images/topic.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	<a href="#menubar">Menü ve araç çubu&#287;u</a></font><br> 	
+    <img src="../images/topic.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+    <a href="#raidrecon">RAID &#304;mar</a></font><br>
+    <img src="../images/topic.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> 
+    <a href="#datawiping">Silme Veri</a></font><br>
+    <img src="../images/topic.gif"> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a href="#options">Di&#287;er seçenekler</a></font> </p>
+</blockquote>
+		</td>
+		<td width="50%">
+    <img src="../images/icon-pc-256.png"></td>
+	</tr>
+</tbody></table>
+<p></p><hr><p></p>
+<p><b> <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><a name="start"></a><img src="../images/topic.gif"> 
+  </font><font face="Verdana, Arial, Helvetica, sans-serif">Ba&#351;lamadan önce</font></b></p>
+<blockquote> 
+  <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Ç&#305;kar&#305;labilir
+bir medya verileri kurtarmak için çal&#305;&#351;&#305;yorsan&#305;z, FILERECOVERY®
+çal&#305;&#351;t&#305;rmadan önce sürücü ortam olmas&#305; gerekir. Program&#305; çal&#305;&#351;t&#305;rmadan
+önce, yönetici ayr&#305;cal&#305;klar&#305;na sahip oldu&#287;unuzdan emin olun. PC,
+program simgesini sa&#287; t&#305;klay&#305;n ve Yönetici olarak çal&#305;&#351;t&#305;r gerekebilir.
+Mac'te, hesab&#305;n&#305;z tam Yönetici ayr&#305;cal&#305;klar&#305;na sahip emin olmak gerekir.</font></p>
+	<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">E&#287;er
+böyle bir ak&#305;ll&#305; telefon veya ki&#351;isel bir müzik cihaz&#305; olarak bir mobil
+cihaz, kurtarma, ba&#287;l&#305; ve FILERECOVERY® çal&#305;&#351;t&#305;rmadan önce bir
+ç&#305;kar&#305;labilir disk ayg&#305;t&#305; olarak gösteriyor emin olun.</font></p>
+	<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Sisteminizde
+bir disk oldu&#287;undan emin olun veya kurtarma s&#305;ras&#305;nda kurtar&#305;lan
+verileri kaydetmek için yeterli alan sistem, ba&#287;l&#305;. Sistemine ek
+depolama alan&#305; eklemeniz gerekiyorsa, FILERECOVERY® çal&#305;&#351;t&#305;rmadan önce
+bunu yapmak istedi&#287;inizden emin olun.</font></p>
+	<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Lütfen
+sistem üzerindeki gereksiz tüm uygulamalar&#305; ve çevre birimleri kapat&#305;n
+ve FILERECOVERY® çal&#305;&#351;t&#305;rmadan önce tüm güç tasarrufu ayarlar&#305;n&#305; devre
+d&#305;&#351;&#305; b&#305;rakmak. E&#287;er bir dizüstü bilgisayar veya di&#287;er ta&#351;&#305;nabilir
+bilgisayar varsa, i&#351;lemi tamamlamak için yeterli pil ömrü oldu&#287;undan
+emin olun. Kurtarma i&#351;lemi kesintileri önlemek için gerekirse AC güce
+ba&#287;lay&#305;n.</font></p>
+	<p align="center"></p><hr><p></p>
+</blockquote>
+<p><a name="userinterface"></a><img src="../images/topic.gif"> 
+    <b><font face="Verdana, Arial, Helvetica, sans-serif">Kullan&#305;c&#305; arayüzü</font></b></p>
+<blockquote> 
+    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">FILERECOVERY
+sihirbaz odakl&#305; arayüzü ® acemi bilgisayar kullan&#305;c&#305;lar&#305; için bile
+kolay bir veri kurtarma yapar. Ba&#351;lang&#305;çtan itibaren, arabirim kurtarma
+i&#351;lemi her ad&#305;m seçmenize yard&#305;mc&#305; olacakt&#305;r. Bir kez seçeneklerinizi
+seçtikten sonra, kurtarma tarama i&#351;lemine ba&#351;lamadan önce bunlar&#305;
+de&#287;i&#351;tirmek için bir f&#305;rsat verilmektedir. A&#351;a&#287;&#305;da, her arabirim ekran&#305;
+ayr&#305;nt&#305;l&#305; olarak anlataca&#287;&#305;z.</font></p>
+<table border="0" width="95%">
+  <tbody><tr> 
+    <td height="279" width="34%"> 
+       <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">FILERECOVERY® ilk ba&#351;latt&#305;&#287;&#305;n&#305;zda, Devam'&#305; t&#305;klat&#305;n ve arayüz kurtarma i&#351;lemi her ad&#305;m seçmenize yard&#305;mc&#305; olacakt&#305;r. </font> </p> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">    </font></td>
+    <td align="left" height="279" width="66%"><img src="../images/mainscreen.png"><br><br></td>
+  </tr>
+  </tbody></table>
+    <p align="center"></p><hr>&nbsp;<p></p>
+	
+<table border="0" width="95%">
+  <tbody><tr> 
+    <td> 
+    <p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Media Seçimi: </b>Kurtarma
+sürecinde ilk ad&#305;m, verileri kurtarmak için çal&#305;&#351;t&#305;&#287;&#305;n&#305;z ortam
+seçmektir. Sabit Diskler, Haf&#305;za Cihazlar, Optik Medya, Multimedya /
+Mobil Cihazlar, ve RAID Sistemleri: FILERECOVERY® medya be&#351; kategoride
+içine patlak vard&#305;r.</font></p>
+	<p>&nbsp;</p>
+	<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">		
+</font></td>
+    <td style="text-align: center;" width="66%">
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><img src="../images/user1.png"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      </font><p><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="../images/media_harddisk.png" align="left" border="0"><b>Sabit Disk: </b>Dahili
+sabit diskleri ve ba&#287;l&#305; harici sabit sürücüler gibi di&#287;er y&#305;&#287;&#305;n
+depolama ayg&#305;tlar&#305;, SSD sürücüler vb NOT: disk cihaz, sistem üzerindeki
+disk yönetimi program&#305; görünür olmal&#305;d&#305;r.<br><br></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="2">		</font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      <p><img src="../images/media_card.png" align="left" border="0"><b>Bellek Cihaz&#305;: </b>Ba&#351;armak
+sürücüler veya USB, Firewire, ya da di&#287;er medya okuyucu cihaz ile SD,
+CF, vb gibi di&#287;er ta&#351;&#305;nabilir flash bellek medya ba&#287;l&#305;. NOT: Cihaz bir
+ç&#305;kar&#305;labilir disk olarak göstermek zorundad&#305;r, ya da ç&#305;kar&#305;labilir
+medya için bir okuyucu kullan&#305;lmas&#305; gerekir.<br><br></p> 
+</font>
+		</td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      <p><img src="../images/media_cd.png" align="left" border="0"><b>Optik Sürücü: </b>CDR / RW, DVDR / RW, vb NOT gibi optik medya veri kurtar&#305;r: cihaz, sistem üzerinde bir optik medya olarak göstermek zorundad&#305;r.<br><br></p> 
+</font>
+		</td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      <p><img src="../images/media_player.png" align="left" border="0"><b>Mobil/Multimedya Cihaz: </b>Dijital
+kamera, MP3 çalar, ak&#305;ll&#305; telefon vb NOT: Cihaz bir ç&#305;kar&#305;labilir disk
+olarak göstermek zorundad&#305;r, ya da ç&#305;kar&#305;labilir medya için bir okuyucu
+kullan&#305;lmas&#305; gerekir.<br><br></p> 
+</font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      <p><img src="../images/media_raid.png" align="left" border="0"><b>RAID Sistemi: </b>Donan&#305;m
+ya da yaz&#305;l&#305;m RAID0 ve RAID5 sistemleri kontrol etti. Ayr&#305;ca veri
+kurtarma için RAID k&#305;r&#305;k sistemlerinin yeniden in&#351;as&#305; için bu seçene&#287;i
+kullanabilirsiniz. <font face="Verdana" size="2"><i>
+		<a href="#raidrecon">RAID &#304;mar hakk&#305;nda daha fazla bilgi için buraya t&#305;klay&#305;n.</a></i></font><br><br></p> 
+</font>
+		</td>
+  </tr>
+  </tbody></table>
+    <p align="center"></p><hr>&nbsp;<p></p>
+	<table border="0" width="95%">
+  <tbody><tr> 
+    <td width="34%"> 
+    <p><font face="Verdana" size="2"><b>Scan Disk veya Toplu seçme:  </b>Bu
+ekranda, bir disk veya verileri kurtarmak istedi&#287;iniz bir ses seçin.
+Hacmi mevcut de&#287;ilse, hacim içeren diski seçin. 1. Ad&#305;mda bir RAID
+sistemi seçerseniz, ayn&#305; zamanda k&#305;r&#305;k bir RAID yeniden denemek için
+bir seçenek olabilir.</font></p>
+<font face="Verdana" size="2">	</font><p><font face="Verdana" size="2">Hem mant&#305;ksal sürücüler ve fiziksel sürücüler - Pencere eri&#351;ilebilir tüm sürücülerin bir listesini görüntülemek sistemi.</font></p>
+<font face="Verdana" size="2">	</font><p><font face="Verdana" size="2">&nbsp;</font></p>
+<font face="Verdana" size="2">	</font><p><font face="Verdana" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></font></p>
+<font face="Verdana" size="2"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">		</font></font></td>
+    <td style="text-align: center;" width="66%"><font face="Verdana" size="2"><img src="../images/user2.png"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="56" width="100%"> 
+      <p><font face="Verdana" size="2"><b>Disk: </b>E&#287;er sisteminizde gösteren bir birim yoksa, ses için kullan&#305;lan disk seçin ve sonra kay&#305;p miktarlar için tarayabilir.</font><br><br></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="56" width="100%"> 
+      <p><font face="Verdana" size="2"><b>Cilt: </b>Ses
+sistemi zaten gösteriliyor ise, kay&#305;p veya silinmi&#351; dosyalar&#305; ve
+klasörleri kurtarmak için ses seçin ve tarama yapabilirsiniz.</font> <br><br></p></td>
+  </tr>
+  <tr> 
+    <td colspan="2" height="56" width="100%"> 
+      <p><font face="Verdana" size="2"><b>RAID: </b></font> 
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="2">
+Donan&#305;m ya da yaz&#305;l&#305;m RAID0 ve RAID5 sistemleri kontrol etti. Ayr&#305;ca
+veri kurtarma için RAID k&#305;r&#305;k sistemlerinin yeniden in&#351;as&#305; için bu
+seçene&#287;i kullanabilirsiniz. <a href="#raidrecon">RAID &#304;mar hakk&#305;nda daha fazla bilgi için buraya t&#305;klay&#305;n.</a></font><br><br></p></td>
+  </tr>
+  </tbody></table>
+	<p align="center"></p><hr>&nbsp;<p></p>
+	<table border="0" width="95%">
+  <tbody><tr> 
+    <td width="34%"> 
+      <p><font face="Verdana" size="2"><b>Kurtarma Senaryo Seçimi: </b>Disk
+veya hacmi verileri kurtarmak için gidiyoruz seçtikten sonra, sürücü
+üzerinde ne tür bir kurtarma gerçekle&#351;tirmek istedi&#287;iniz seçmeniz
+gerekecektir. Veri kayb&#305; sorunu en iyi &#351;ekilde uyan bir kurtarma
+senaryosunda seçin.</font></p>
+		<p><font face="Verdana" size="2">Ekran&#305;n
+alt k&#305;sm&#305;nda baz&#305; dosya sistemleri veya RAW dosya tarama tarama s&#305;n&#305;r&#305;
+detaylar&#305; seçenektir. RAW dosya incelemek sürücü tarar ve dosya içeri&#287;i
+ve mimarl&#305;k dosyalar&#305; bulmak için çal&#305;&#351;&#305;r. Dosya sistemi taramas&#305; için
+ba&#351;ka seçenekler var oldu&#287;u durumlarda, bu hala kullan&#305;labilir verileri
+kurtarabilirsiniz.</font></p>
+		
+		
+    </td>
+    <td style="text-align: center;" width="66%"><img src="../images/user3.png"></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+    <p>
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+Bazen, bir tarama binlerce yetim ö&#287;eleri olabilir. Baz&#305; taramalar&#305;, bu
+veriler zaten bozuk olarak (üzerine yaz&#305;l&#305;r dosyalar&#305;), kullan&#305;c&#305; için
+kullan&#305;&#351;l&#305; bir veri de&#287;ildir. Veri miktar&#305;n&#305; azaltmak / onun dosyalar&#305;
+daha kolay bulmak için kullan&#305;c&#305;ya yard&#305;mc&#305; olmak için, varsay&#305;lan
+olarak devre d&#305;&#351;&#305; b&#305;rak&#305;l&#305;r H&#305;zl&#305; Tarama seçene&#287;i vard&#305;r. Detayl&#305;
+QuickScan &#351;unlar&#305; yapar:<br>
+<blockquote>
+- Silinen Dosya Kurtarma Tarama: &#351;u anda fonksiyonu olmadan gelecek amaçlar için eklenen /<br>
+- Biçimli Media Recovery: FAT / NTFS birimleri, yetim ö&#287;eler taran&#305;r / olu&#351;turulabilir olmaz<br>
+- Arama Kay&#305;p Hacimleri Tarama: Sadece silindir s&#305;n&#305;rlar&#305; (Windows
+makinelerde) arayacakt&#305;r. Bu büyük olas&#305;l&#305;kla hacim bilgileri eksik
+nerede. Bu tarama h&#305;zland&#305;r&#305;r. Hacmi tespit edilemezse bu unchecking
+hacmi bilgi için blok blok tarama yapar.</blockquote>
+</font>
+</p>
+	<p></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+		<p>
+		<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			<img src="../images/explore.png" align="left" border="0"><b>Cilt ke&#351;fedin:</b>
+Explorer-benzeri bir arayüz iyi bir hacim ke&#351;fedin. Iyi bir birimdeki
+verileri kurtarmak için bu seçene&#287;i seçin. Hiçbir tarama yer almaktad&#305;r.</font><br><br></p>
+        </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+	<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			<img src="../images/deletedscan.png" align="left" border="0"><b>Silinen Dosya Kurtarma:</b>
+Dosya içeri&#287;ini kazara silinmi&#351; dosyalar&#305; veya kaybolan dosyalar&#305;
+bulun. Biçimlendirilmi&#351; kurtarma dosyalar&#305; bulamazsa, geri dönü&#351;üm
+kutusu silinen dosyalar&#305; varsa, bu seçene&#287;i seçin. Bu dosya içeri&#287;ini
+bir ses kullan&#305;lmayan bloklar tarar. Ço&#287;u dosya sistemleri, orijinal
+dosya adlar&#305;n&#305; kurtaramaz.</font><br><br></p>
+			</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+			<img src="../images/formattedscan.png" align="left" border="0"><b>Biçimli Medya Kurtarma:</b>
+Biçimlendirilmi&#351; bir birimden veri kurtar&#305;r. Ayn&#305; zamanda kay&#305;p
+dosyalar&#305; kurtarmak için kullan&#305;labilir. Bu seçenek tarama daha fazla
+zaman al&#305;r, fakat iyile&#351;me &#351;ans&#305; vard&#305;r. Bu kay&#305;p dosya sistemi
+yap&#305;lar&#305; için bir ses, her blok tarar.</font><br><br></p>
+			</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" width="100%">
+	<p>
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	<img src="../images/wipe.png" align="left" border="0"><b>Silme veri:</b>
+Onlar art&#305;k geri al&#305;namaz, böylece güvenli bir &#351;ekilde tek tek
+dosyalar&#305; siler ya da iyi bir ses klasörleri: Veri silin. UYARI: Bu
+veri silme sonra art&#305;k geri kazan&#305;labilir olacakt&#305;r. E&#287;er sistem bu
+veriyi ortadan kald&#305;rmak için istedi&#287;iniz kesin olun. </font><font face="Verdana" size="2"> <i>
+	<a href="#datawiping">Veri silme hakk&#305;nda daha fazla bilgi için buraya t&#305;klay&#305;n.</a></i></font><br><br></p>
+
+
+</td>
+  </tr>
+  <tr>
+    <td height="415" width="34%">
+		<p><img src="../images/lostvolumescan.png" align="left" border="0"><font face="Verdana" size="2">Ad&#305;m
+2 bir ses yerine, bir disk seçerseniz, o zaman sistem üzerinde gösteren
+bir ses seçimi olmad&#305;&#287;&#305; için, Gözat seçene&#287;i olmaz. Bu disk kay&#305;p
+miktarlar için arama seçene&#287;i verilecektir. Bu birimler dosya
+sistemlerinin zarar görmü&#351; ya da silmi&#351; bir sürücü birimleri kurtarmak
+için iyi olacakt&#305;r. Yine bir seçenek verilmi&#351;tir böylece arad&#305;&#287;&#305;n&#305;z
+dosya sistemlerini s&#305;n&#305;r&#305;. Bu kay&#305;p miktarlar için bir arama oldu&#287;u
+için, herhangi bir RAW dosya sistem taramas&#305; var.</font></p>
+		
+		
+    	</td>
+    <td align="left" height="415" width="66%">
+        <div style="text-align: center;"><img src="../images/user3a.png"><br>
+        </div>
+<br></td>
+  </tr>
+  <tr>
+    <td width="34%">
+		<p><font face="Verdana" size="2">Kay&#305;p
+miktarlar için tarama bitti&#287;inde, taramak için ses seviyesini seçmek
+için istenir Ad&#305;m 2, geri dönecek. Program bir kay&#305;p hacmi bulmak
+mümkün olsayd&#305;, o zaman ye&#351;il bir simge ile gösterilir olacak. </font></p>
+		<p><font face="Verdana" size="2">Bu
+sürücüyü seçin ve normal bir ses oldu&#287;u gibi devam edin. Hacmi göz
+at&#305;n, silinmi&#351; dosyalar&#305; aramak ve kay&#305;p dosyalar&#305; aramak mümkün
+olacak. Sonra sistem üzerinde ba&#351;ka bir konuma kaydedebilirsiniz.</font></p>
+		<p>&nbsp;</p>
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+    <td style="text-align: center;" width="66%"><img src="../images/user3b.png"></td>
+  </tr>
+  </tbody></table>
+<p align="center"></p><hr>&nbsp;<p></p>
+<table border="0" width="95%">
+  <tbody><tr> 
+    <td width="34%"> 
+      <font face="Verdana" size="2"><b>Seçti&#287;iniz Seçenekleri Kontrol Etme: </b>
+Verileri kurtarmak için gidiyoruz, disk veya birimin seçilen ve
+kullanmak için gidiyoruz kurtarma yöntemi seçilir sonra, seçimlerinizi
+bir önizleme verilecektir. Tarama ba&#351;lamadan önce herhangi bir
+de&#287;i&#351;iklik yapman&#305;z gerekiyorsa, geri gidin ve önceki ekranlar&#305;nda
+seçeneklerini de&#287;i&#351;tirmek t&#305;klayabilirsiniz.</font><p>
+		<font face="Verdana" size="2">E&#287;er seçmi&#351; oldu&#287;unuz seçenekleri ile memnun iseniz, kay&#305;p veri için Taramay&#305; ba&#351;latmak için Devam'&#305; t&#305;klat&#305;n.</font></p></td>
+    <td align="left" width="66%">
+        <div style="text-align: center;"><img src="../images/user4.png"><br>
+        </div>
+<br></td>
+  </tr>
+  <tr>
+    <td width="34%">
+		<font face="Verdana" size="2"><b>Tarama: </b>Diskinizin
+boyutuna ba&#287;l&#305; olarak tarama i&#351;lemi birkaç saat sürebilir! Ayr&#305;ca,
+herhangi bir sorun giderme tarama yapmak gerekiyorsa tarama
+penceresinde günlük mesajlar&#305; görüntülemek için seçebilirsiniz.</font><p>&nbsp;</p>
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+    <td align="center" width="66%"><img src="../images/scanning.png"><br><br></td>
+  </tr>
+  </tbody></table>
+	<p align="center"></p><hr>&nbsp;<p></p>
+	<table border="0" width="95%">
+  <tbody><tr>
+    <td width="34%">
+		<font face="Verdana" size="2"><b>Dosyalar&#305;n&#305;z&#305; Kaydetme:</b>
+Tarama i&#351;lemi bitti&#287;inde bulundu veri dosyalar&#305; ve klasörleri bir liste
+halinde gösterilir. Bu örnekte, silinen dosya tarama çok say&#305;da dosya
+bulundu ve dosya türüne göre görüntülenir. Ço&#287;u durumda, bu genellikle
+geri kazan&#305;labilir oldu&#287;u gibi silinen dosya verileri orijinal dosya
+adlar&#305; olmayacakt&#305;r.<br>
+</font>
+
+        <p class="MsoNormal" style="line-height: normal;"><span style="font-size: 10pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;">E&#287;er
+2007/2010, Microsoft Office taraf&#305;ndan olu&#351;turulan dosyalar&#305;
+ar&#305;yorsan&#305;z Dairesi 2007/2010 belgeler asl&#305;nda ar&#351;ivleri ZIP çünkü,
+"zip-msword", "zip-MsPowerPoint", ya da "zip-msexcel" ad&#305;nda bir
+klasöre Uygulamalar&#305; alt&#305;na bak&#305;n .</span><span style="font-size: 10pt; font-family: &quot;Verdana&quot;,&quot;sans-serif&quot;;"><o:p></o:p></span></p>
+
+
+<p><font face="Verdana" size="2">Verileri kaydetmek için, ekran&#305;n sa&#287;
+taraf&#305;nda dosyalar&#305; seçin ve araç çubu&#287;unda kaydetme simgesini
+t&#305;klat&#305;n. Ya birden fazla dosya seçmek için Shift tu&#351;una (arkaya birkaç
+dosya seçmek için) veya klavyenizdeki Ctrl tu&#351;una (dosyalar&#305; tek tek
+seçmek için) kullan&#305;n. Dosya listesindeki tüm ö&#287;eleri seçmek
+isterseniz, Düzen menüsünden Tümünü Seç ö&#287;esini seçin. </font></p>
+		<p><font face="Verdana" size="2">Not:
+Ço&#287;u eylem kurtarmak için aç&#305;lan menüden ula&#351;&#305;labilir. Bu sizin
+hakk&#305;n&#305;zd&#305;r seçilen bir dosya ya da dizin t&#305;klarsan&#305;z görünür.</font></p>
+		</td>
+    <td align="left" width="66%">
+        <div style="text-align: center;"><img src="../images/user5.png"><br>
+        </div>
+<br></td>
+  </tr>
+  <tr>
+    <td width="34%">
+        <p><font face="Verdana" size="2">Tipik
+bir kaydetme ileti&#351;im kutusu görüntülenir olacak ve mevcut klasörler
+halinde dosyalar&#305; kaydetmek veya yenilerini olu&#351;turmak için mümkün
+olacakt&#305;r.</font></p>
+		<p><font face="Verdana" size="2">Seçin veya verileri kaydetmek ve Tamam'&#305; t&#305;klat&#305;n istedi&#287;iniz klasörü seçin.</font></p>
+		<p><font face="Verdana" size="2">NOT: tarad&#305;&#287;&#305;n&#305;z ayn&#305; disk geri dosyalar&#305; kaydetmek etmeyin. Her zaman ba&#351;ka bir konuma verileri kaydetmek!</font></p>
+		<p>&nbsp;</p>
+		<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+    <td align="center" width="66%"><img src="../images/savingPC.png"></td>
+  </tr><tr>
+        <td style="vertical-align: top;"><br>
+
+
+        <p style="font-family: Verdana;" class="MsoNormal"><small><span lang="TR"><span style="font-weight: bold;">E-posta Kurtarma -</span> Bu özellik kullan&#305;c&#305;n&#305;n
+seçili e-posta veri taban&#305;na göz atmas&#305;n&#305; sa&#287;lar ve mevcut e-postalar ile
+silinmi&#351; olan e-postalar&#305; yazd&#305;rmak veya sabit disk üzerine kaydetmek üzere
+görüntüler.</span></small></p>
+
+
+        <p style="font-family: Verdana;" class="MsoNormal"><small><span lang="TR">1. E-postalar&#305;n&#305;z&#305; içeren klasörü ve posta
+dosya tipini (Outlook Express, Outlook, Eudora, Mozilla, Becky, veya Windows
+Live Mail) seçin.</span></small></p>
+
+
+        <p style="font-family: Verdana;" class="MsoNormal"><small><span lang="TR">2. Sol a&#287;aç görüntüsünden bir posta kutusu
+klasörü seçin.</span></small></p>
+
+
+        <p style="font-family: Verdana;" class="MsoNormal"><small><span lang="TR">3. Liste kutusundan bir posta ö&#287;esini seçin.</span></small></p>
+
+
+        <p style="font-family: Verdana;" class="MsoNormal"><small><span lang="TR">4. Seçili posta ö&#287;esini kaydetmek için
+'Postay&#305; kaydet' veya seçili posta ö&#287;esini yazd&#305;rmak için 'Postay&#305; yazd&#305;r'
+seçene&#287;ini seçin.</span></small></p>
+
+
+        <br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 500px; height: 382px;" alt="" src="../images/mail-viewer.png"><br>
+        </td>
+      </tr>
+
+  </tbody></table>
+	<p align="center"></p><hr><p></p>
+</blockquote>
+<p><a name="menubar"></a><img src="../images/topic.gif"> 
+<font face="Verdana, Arial, Helvetica, sans-serif"><b>Menü ve araç çubu&#287;u</b></font></p>
+<blockquote>
+  <p align="left">
+	<span style="font-size: 11pt; font-family: Calibri,sans-serif;" lang="TR">
+	Program ba&#351;l&#305;k alt&#305;nda menü çubu&#287;u var. Program için ana araç çubu&#287;u menü 
+	çubu&#287;unun alt&#305;nda. Burada her menü ve araç çubu&#287;u ö&#287;esi ayr&#305;nt&#305;l&#305; 
+	aç&#305;klamalar bulunmaktad&#305;r.</span></p>
+	<table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>
+			Menü Çubu&#287;u</b>
+			</font></p></td>
+			<td valign="top">
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>Dosya:</b><br>Dosya menüsünde, &#351;unlar&#305; yapabilirsiniz:</font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">	        </font></td>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Disk listesini yenileyin - yeniden denetler, sistem üzerindeki mevcut diskler.
+    Kurtarma ile ilgili bir rapor nitelikleri dahil olmak üzere seçilen dosyalar&#305;, bir rapor kaydeder.
+    Ç&#305;k&#305;&#351; - program var.
+</font>&nbsp;
+			<br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+	        <b>Düzenleme:</b><br>Düzen menüsünde, &#351;unlar&#305; yapabilirsiniz:</font>
+	        </p>			
+			</td>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Kaydetme
+i&#351;lemi s&#305;ras&#305;nda seçin Tüm dosyalar seçin. Ayr&#305;ca dosyalar&#305; tek tek
+seçmek veya seçimden ç&#305;karmak için CTRL tu&#351;unu kullanabilirsiniz.</font>
+			<br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Arama:</b><br>Arama menüsünde, &#351;unlar&#305; yapabilirsiniz:</font></p></td>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Arama
+menüsü, belirli bir anahtar kelime için dosya ve klasörleri aramak için
+"Bulan&#305;k Arama" etkinle&#351;tirebilirsiniz. Bulan&#305;k arama daha insans&#305;
+arama modu. 'Planet' bulan&#305;k olmayan arama, dosyalar&#305; protoplanet 'ya
+da' gezegen 'uyu&#351;muyor. Ancak bulan&#305;k arama. </font>
+			<br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Ekstralar:</b> 
+			Ekstralar menüsü sa&#287;lar:			</font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">			</font></td>
+			<td valign="top">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Uzaktan
+Kurtarma seçin ve program Seçenekleri de&#287;i&#351;tirmek. Uzaktan Kurtarma
+hakk&#305;nda daha fazla bilgi için, lütfen Uzaktan Kurtarma bölümüne gidin.
+Seçenekler hakk&#305;nda daha fazla bilgi için, lütfen Seçenekleri bölümüne
+gidin.</font>
+			<br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">			</font></td>
+			<td valign="top">
+			&nbsp;</td>
+		</tr>
+		</tbody></table>
+	<p align="center"></p><hr>&nbsp;<p></p>
+	<table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td width="34%">
+			<p align="left">
+	<img src="../images/tb_options.png" align="left" border="0"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Seçenekler: </b>
+Seçenekler simgesini t&#305;klad&#305;&#287;&#305;n&#305;zda Seçenekleri ekran&#305;nda götürecektir.
+Orada, program&#305;n çal&#305;&#351;mas&#305; için varsay&#305;lan seçenekleri
+ayarlayabilirsiniz.</font></p>
+			<p align="left">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Genel
+sekmesinin alt&#305;nda, program&#305;n her çal&#305;&#351;mas&#305; ile frc_log.txt dosyas&#305;nda
+rapor edilecektir günlü&#287;ü düzeyini ayarlayabilirsiniz. Log dosyalar&#305;
+çok h&#305;zl&#305; bir &#351;ekilde büyük, çünkü, sorun giderme sürece sadece INFO
+günlük düzeyini kullanmak için tavsiye ve günlü&#287;ü daha ayr&#305;nt&#305;l&#305;
+gerekir.</font></p><small><span style="font-family: Verdana;">Olay günlü&#287;ü seviyesi ayr&#305;nt&#305;s&#305; artan s&#305;ralamada:</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">NONE: Olay günlü&#287;ü ç&#305;kt&#305;s&#305; yok</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">REPORT: sadece rapor durumu bulunan mesajlar günlü&#287;e kaydedilecektir. Günlük dosyalar&#305; çok küçüktür.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">ERROR: dü&#351;ük seviyede olan tüm mesajlar + hata veren mesajlar günlü&#287;e kaydedilecektir</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">WARNING: dü&#351;ük seviyede olan tüm mesajlar + uyar&#305; veren mesajlar günlü&#287;e kaydedilecektir</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">INFO: varsay&#305;lan ayarlar; dü&#351;ük seviyede olan tüm mesajlar + bilgi durumunda olan mesajlar günlü&#287;e kaydedilecektir</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">DEBUG: dü&#351;ük seviyede olan
+tüm mesajlar + hata ay&#305;klama durumunda olan mesajlar günlü&#287;e
+kaydedilecektir. Ayarlar, geli&#351;tirmecilere hata ay&#305;klama bilgisi geri
+göndermek üzere kullan&#305;lacakt&#305;r.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">DEBUG2: dü&#351;ük seviyede olan
+tüm mesajlar + en yüksek hata ay&#305;klama durumunda olan mesajlar günlü&#287;e
+kaydedilecektir. Sadece geli&#351;tirmecilerin kullan&#305;m&#305; için. Büyük günlük
+dosyalar&#305; olu&#351;turulacakt&#305;r.</span></small><br>
+        <br>
+</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/options1.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Genel
+sekmesinde ayr&#305;ca Uzman Modu olanak sa&#287;lar. Uzman Modu menüler geli&#351;mi&#351;
+kurtarma özellikleri sa&#287;lar ve bu özelliklere eri&#351;im sa&#287;lar. E&#287;er bu
+özellikleri kullanmak için nas&#305;l teknik destek ile çal&#305;&#351;t&#305; yoksa bu
+modu ayarlamak için tavsiye edilmez. Baz&#305; geli&#351;mi&#351; özellikleri yanl&#305;&#351;
+kullan&#305;m&#305;, veri kayb&#305;na neden olabilir.</font></p></td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/options2.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Kurtarma
+sekmesini filtreler sadece belirli dosya türlerini aramak için olanak
+sa&#287;lar. Bu özellik önemli bir tarama h&#305;zland&#305;rmak - özellikle RAW dosya
+modu arama.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/options3.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td height="25" width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Kurtarma
+sekmesi ayr&#305;ca bir sürücü tarama bölgesi s&#305;n&#305;r&#305; sa&#287;lar. Böyle okunmaz
+bölgeler ya da kötü sektörler geni&#351; alanlar gibi bir çok sorunlar&#305; olan
+bir sürücü tarama çal&#305;&#351;&#305;rken yararl&#305;d&#305;r. Ayn&#305; zamanda bir sürücünün
+küçük bölümlerini tarama ve kurtarma h&#305;zland&#305;rmak için kullan&#305;labilir.
+Ancak, herhangi bir tarama bölgesi s&#305;n&#305;rlay&#305;c&#305; bulundu veri miktar&#305;
+azalacak, ve genellikle tavsiye edilmez.</font></p>
+			<p align="left">
+			&nbsp;</p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">			</font></td>
+			<td style="text-align: center;" height="25" width="66%">
+			<img src="../images/options4.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td height="25" width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Sürücü sadece "bo&#351; alan" tarama - Kurtarma sekmesi ayr&#305;ca birimdeki dosya sistemi taraf&#305;ndan kullan&#305;lan bloklar atlamak sa&#287;lar. </font></p>
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Kurtar&#305;lan
+dosyan&#305;n gerçek dosya boyutu tespit edilemez olmas&#305; durumunda maksimum
+dosya boyutunu ayarlamak için bir seçenek de vard&#305;r. Bu taramadan önce
+ayarlanm&#305;&#351; olmas&#305; gerekir. Taramadan sonra bir dosya boyutunu
+de&#287;i&#351;tirmek için, dosyay&#305; sa&#287; t&#305;klat&#305;n ve yeniden boyutland&#305;rma
+seçene&#287;i kullanmak gerekir.</font></p>
+			<p align="left">
+			&nbsp;</p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">			</font></td>
+			<td style="text-align: center;" height="25" width="66%">
+			<img src="../images/options5.png"><br><br>
+			</td>
+		</tr><tr>
+        <td style="vertical-align: top;"><small><span style="font-family: Verdana;">Kaydet
+esnas&#305;nda ayn&#305; dosya isimleri için otomatik dosya isimlendirmesi
+Herhangi bir dosyay&#305; kaydederken ayn&#305; dosya ad&#305; ile yeniden adland&#305;r&#305;r
+(Örnek: samefile0.txt, samefile1.txt, samefile2.txt).</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Silinmi&#351; dosyalar&#305;n
+Biçimlendirilmi&#351; Tarama formunda alg&#305;lanmas&#305;: Bu özelli&#287;i
+etkinle&#351;tirerek, FAT birimlerinde yer alan Biçimlendirilmi&#351; Taramada
+silinmi&#351; dosyalar bulunabilir.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Biçimlendirilmi&#351; Taramada
+sadece kök ö&#287;elerinin toplanmas&#305;: Bu özellik NTFS birimlerinin
+Biçimlendirilmi&#351; Taramas&#305;n&#305; h&#305;zland&#305;r&#305;r. Bu özelli&#287;in etkin konuma
+getirilmesi durumunda, dosya a&#287;açlar&#305;n&#305;n pek çok k&#305;sm&#305;n&#305;n hali haz&#305;rda
+silinmi&#351; oldu&#287;u birimlerde veya yeni verilerin üzerine yaz&#305;l&#305; olmas&#305;
+durumunda sonuç a&#287;ac&#305; bo&#351; veya eksik kalm&#305;&#351; olacakt&#305;r. Biçimlendirilmi&#351;
+Taramada, program belle&#287;i büyük NTFS birimleri üzerinde çok yüksek
+kullan&#305;ma sahipse veya i&#351;letim sistemi tarama esnas&#305;nda "bellek dolu"
+hata mesaj&#305; veriyorsa bu seçene&#287;i kullan&#305;n.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Tarama esnas&#305;nda tüm
+hatalar&#305;n göz ard&#305; edilmesi: Çözücüde bir hata olu&#351;mas&#305; durumunda,
+normal olarak kullan&#305;c&#305;dan geri bildirim istemek yerine kurtarma tarama
+motorunu devam etmeye zorlar ve kullan&#305;c&#305; mesaj&#305; için istem yapmaz </span></small><br>
+        <br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 507px; height: 280px;" alt="" src="../images/advanced-options.png"><br>
+        </td>
+      </tr>
+      <tr>
+        <td style="vertical-align: top;"><small><span style="font-family: Verdana;">Kurtarma sekmesi ayr&#305;ca kullan&#305;c&#305;ya bozuk kesim yönetim seçeneklerini sunar.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Program, bozuk kesim
+bulundu&#287;unda, kurtarma sürecini durduraca&#287;&#305;ndan dolay&#305;, herhangi bir
+aç&#305;l&#305;r pencere hata mesaj&#305; görüntülemez.&nbsp; 'Bozuk kesim yönetimi'
+modülü tüm bozuk kesimleri 'Otomatik olarak bozuk kesimleri ekle'
+seçene&#287;inin belirlenmesi durumunda dahili listeye ekler.&nbsp; Bozuk
+kesimin her yeniden de&#287;erlendirilmesi yap&#305;ld&#305;&#287;&#305;nda 'Otomatik olarak
+liste içeriklerini atla' seçene&#287;i seçilmi&#351; ise bu i&#351;levi otomatik
+olarak atlar.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">&nbsp;</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Bozuk kesimleri, kesim
+aral&#305;&#287;&#305;n&#305; düzenleme alan&#305;na yazarak el ile ekleyebilir ve sa&#287; tarafta
+bulunan 'Giri&#351; ekle' seçene&#287;ini seçebilirsiniz. Tek bir bozuk kesim
+eklemek için aral&#305;k ba&#351;lang&#305;c&#305;n&#305; aral&#305;k sonu olarak belirtebilirsiniz
+(örne&#287;in, aral&#305;k 16'dan aral&#305;k 16'ya).</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">&nbsp;</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">'H&#305;zl&#305; kötü kesim atlama'
+i&#351;aretlendi&#287;i ve okuma iste&#287;i kötü kesim aral&#305;&#287;&#305;na denk geldi&#287;i
+takdirde, tüm okuma iste&#287;i atlanacakt&#305;r.&nbsp; Örne&#287;in, okuma
+operasyonu 8MB'&#305;n okunmas&#305;n&#305; talep etti&#287;inde ve iki kesimin bozuk
+olmas&#305; durumunda (= 512 bayt kesim boyutu ile medya üzerinde 1024 bayt)
+8MB'&#305;n tamam&#305; atlanacakt&#305;r.&nbsp; Bu özelli&#287;i büyük bir bozuk medya
+üzerinde pek çok bozuk kesimin olmas&#305; durumunda h&#305;zl&#305; tarama
+yap&#305;ld&#305;&#287;&#305;nda kullan&#305;n.</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">&nbsp;</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Durum çubu&#287;unun sol alt
+taraf&#305;nda bulunan disk hata sayac&#305; her okuma operasyonunun ba&#351;ar&#305;s&#305;z
+olmas&#305; ile birlikte artacakt&#305;r. Günlük dosyas&#305; bulunan bozuk kesimlerle
+ilgili detayl&#305; bilgileri içermektedir. </span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">&nbsp;</span><br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Hasar görmü&#351; medya/bozuk
+disk ile ilgili önemli not: Bozuk kesim içeren hatal&#305;/bozuk diskin bir
+resminin olu&#351;turulmas&#305; önerilmektedir. Bozuk medya üzerinde her okuma
+i&#351;lemi gerçekle&#351;tirildi&#287;inde, bozuk kesim say&#305;s&#305; artacakt&#305;r. Böyle bir
+durumda en iyi ve en emin çözüm veri blo&#287;u/kesim say&#305;s&#305;n&#305; 512-4096
+(4096 bayt daha h&#305;zl&#305;d&#305;r ancak daha az güvenlidir) ayarlamak ve diskin
+tam görüntüsünü harici bir dosyaya almakt&#305;r.</span><br style="font-family: Verdana;">
+        </small><br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 506px; height: 279px;" alt="" src="../images/bad%20block%20mgmt.png"><br>
+        </td>
+      </tr>
+
+		</tbody></table>
+	<p align="center"></p><hr>&nbsp;<p></p>
+	    <table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td width="34%">
+			<p align="left">
+	<b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Uzaktan Kurtarma: </font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+Uzaktan kurtarma VNC (http://www.realvnc.com) taraf&#305;ndan desteklenen ve
+iki bile&#351;enden olu&#351;maktad&#305;r. Uzaktan eri&#351;mek istedi&#287;iniz bilgisayara ve
+önünüzde oturan bilgisayar üzerinde çal&#305;&#351;an bir izleyici üzerinde
+çal&#305;&#351;an bir sunucu.</font></p>
+			<p align="left">
+	<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Bir
+sunucu çal&#305;&#351;t&#305;rmak için gereken VNC ile ba&#351;lad&#305; ve ard&#305;ndan bir
+izleyici ile ba&#287;lanmak almak için. Sunucu ba&#351;latt&#305;&#287;&#305;n&#305;zda, bir IP
+adresi ya da DNS kontrolü izin vermek isteyen bilgisayar ad&#305; ve port
+numaras&#305;n&#305; girmeniz gerekecektir.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/remote1.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Uzaktan
+izleyici için menü çubu&#287;unda Uzman sekmesi alt&#305;nda ba&#287;lant&#305;. Bu di&#287;er
+sistem uzaktan kontrol etmek için kullan&#305;labilir. Yukar&#305;daki ad&#305;m
+sistem ba&#287;lant&#305; noktas&#305; numaras&#305;n&#305; girin ve izleyici ba&#351;latmak t&#305;klat&#305;n.</font></p>
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Di&#287;er
+ekran uzak bir bak&#305;&#351; sunulacak ve &#351;imdi bu sistem, program ve di&#287;er
+bilgisayar fonksiyonlar&#305; kontrol edebilirsiniz. &#304;&#351;iniz bitti&#287;inde,
+sadece izleyici kapatabilme ve ba&#287;lant&#305; kapal&#305; olacakt&#305;r.</font></p>
+			<p align="left">
+			&nbsp;</p>
+			<p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/remote2.png"><br><br>
+			</td>
+		</tr>
+		</tbody></table>
+	
+	
+	<p align="center"></p><hr>&nbsp;<p></p>
+	<table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td width="100%">
+			<p align="left">
+			<img src="../images/tb_createimage.png" align="left" border="0">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Bir görüntü dosyas&#305; olu&#351;turmak
+:</b>
+Bu seçenek, sürücüyü kurtarmak için çal&#305;&#351;&#305;rken bir yedek görüntü
+olu&#351;turmak için. Bir sürücü ba&#351;ar&#305;s&#305;z oldu&#287;unda bu yararl&#305; olabilir ve
+bir kurtarma gerçekle&#351;mesi gerekiyor. Veya sürücü hizmete dönmesi
+gerekiyor, ancak kurtarma henüz bitmi&#351; de&#287;il.</font><br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%">
+			<p align="left">
+			<img src="../images/tb_createimage.png" align="left" border="0">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Bir resim dosyas&#305; yüklemek:</b>
+Bu seçenek Create Image File seçene&#287;i ile olu&#351;turulan sürücü yedekleme
+görüntü yüklemek için. Bu ayn&#305; zamanda siz de bu görüntülerin veri
+kurtarabilirsiniz, böylece ba&#351;ka bir yaz&#305;l&#305;m taraf&#305;ndan yap&#305;lan görüntü
+dosyalar&#305;n&#305; yüklemek için kullan&#305;l&#305;r.</font><br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%">
+			<p align="left">
+			<img src="../images/tb_save.png" align="left" border="0">
+			<b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Kaydet:</font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+Bu seçenek, kurtar&#305;lan dosyalar&#305; kaydetmek için. Tarama çal&#305;&#351;t&#305;rmadan
+önce hedef sürücüler sisteme ba&#287;l&#305; oldu&#287;unu emin olun. NOT: Taranan
+olandan farkl&#305; bir sürücü verileri kaydetmek emin olun.</font><br><br></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%">
+			<p align="left">
+			<img src="../images/tb_search.png" align="left" border="0"> <b>
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Arama:</font></b><font face="Verdana, Arial, Helvetica, sans-serif" size="-1">
+Bu seçenek, bir birimdeki dosyalar&#305; bulmak için standart dosya adlar&#305;,
+tipleri, vah&#351;i kartlar&#305;, vb. Kullanarak belirli dosyalar&#305; aramak için.
+"Fuzzy arama" etkinse, o zaman da kullan&#305;labilir olacakt&#305;r.</font><br><br><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">			</font></td>
+		</tr>
+		</tbody></table>
+	<p align="center"></p><hr><p></p>
+</blockquote>
+<a name="raidrecon"></a><img src="../images/topic.gif"> 
+    <font face="Verdana, Arial, Helvetica, sans-serif"> 
+    <b>RAID &#304;mar</b></font><p></p>
+<blockquote>
+
+<font face="Verdana, Arial, Helvetica, sans-serif"><b>	</b><table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td width="34%">
+			<p align="left">
+	<img src="../images/tb_raid.png" align="left" border="0"><font size="-1"><b>RAID 
+	Reconstructor</b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>:</b> 
+	RAID Reconstructor simgesine t&#305;klad&#305;&#287;&#305;n&#305;zda RAID &#304;mar program&#305; aç&#305;lacak.</font></p>
+			<p align="left">
+	<font size="-1">Burada, RAID ve sürücü say&#305;s&#305; türü seçin ve RAID Reconstructor veri analiz ve veri kurtarma için RAID yeniden in&#351;a etmeye izin.</font></p>
+			<p align="left">
+	<font size="-1">Bu
+denetleyici çal&#305;&#351;ma durdu özellikle yararl&#305;d&#305;r, ancak sürücüler hala
+çal&#305;&#351;&#305;yor. Sadece bir sisteme tak&#305;n ve sürücüleri RAID ve veri kurtarma
+yeniden!</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"> </font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid1.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">&#304;lk
+olarak, yeniden, ne tür bir RAID seçin. Listedeki baz&#305; ortak haz&#305;r RAID
+türleri vard&#305;r. RAID türü listede yer alm&#305;yorsa, genel RAID (HW, SW,
+RAID0, RAID-5), RAID türü ile e&#351;le&#351;en seçin.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid2.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Ard&#305;ndan
+RAID kaç sürücüler seçin. Mümkünse, sürücülerin do&#287;ru s&#305;rayla seçerek
+analiz h&#305;zland&#305;r&#305;r. RAID ya da analiz içeren diskler ba&#351;ar&#305;s&#305;z olur
+sadece seçmek emin olun. </font></p>
+			
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid3.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">E&#287;er
+disk sipari&#351; emin de&#287;ilseniz, ard&#305;ndan Seçenekler&gt;&gt; dü&#287;mesini
+t&#305;klat&#305;n ve Disk Sipari&#351; adl&#305; kutuya bir onay i&#351;areti koymak. Bu ayn&#305;
+zamanda RAID sürücüleri farkl&#305; sipari&#351;ler ayr&#305;&#351;t&#305;rmak.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img style="width: 400px; height: 387px;" alt="" src="../images/raid3a.gif"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Bir
+kez parametrelerini ayarlamak, daha sonra RAID Reconstructor diskleri
+analiz etmek için izin Tarama Ba&#351;lat dü&#287;mesine t&#305;klay&#305;n.</font></p>
+			<p align="left">
+			<font size="-1">RAID
+veri çe&#351;itli kombinasyonlar&#305; tarama sondalar&#305; gelince, onlar probed
+Birle&#351;meleri listesi olas&#305;l&#305;k s&#305;ras&#305;na göre listelenir. </font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid4.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Tarama
+tamamland&#305;&#287;&#305;nda, RAID probed kombinasyonlar&#305; listesi gösterilir. Puan
+ne kadar yüksekse, bu do&#287;ru bir birle&#351;imi oldu&#287;unu daha olas&#305;d&#305;r. Bu
+her zaman böyle de&#287;ildir, ama RAID yeniden ba&#351;latmak için iyi bir yer
+olacak.</font></p>
+			<p align="left">
+			<font size="-1">Prob kombinasyonlar&#305; birine t&#305;klat&#305;n ve sonra RAID denemek ve görmek için Tamam'&#305; t&#305;klat&#305;n.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid5.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">RAID
+olarak görüntülenir ve daha sonra bölümleri A&#351;a&#287;&#305;daki listede olacak.
+K&#305;r&#305;ld&#305; önce RAID gerçekten geçerli bölümleri olsayd&#305;, o zaman bu
+bölümleri dola&#351;abilmeniz ve sadece bir ses gibi taranacak mümkün
+olmal&#305;d&#305;r, ve veriler kaydedilir. Taramak için disk veya birimin
+seçilmesi üzerinde bölümüne bak&#305;n. </font></p>
+			<p align="left">
+			<font size="-1">RAID
+bölümleri göz yoksa, daha sonra yeniden in&#351;as&#305; için parametrelerin
+do&#287;ru de&#287;ildir. Ancak, çok kolay bir &#351;ekilde geri dönün ve yeniden
+taramay&#305; olmadan parametrelerini ayarlamak. RAID disk listesini
+vurgulay&#305;n ve Ayr&#305;nt&#305;lar dü&#287;mesini t&#305;klat&#305;n. Bu RAID Reconstructor
+ekran&#305;na dönersiniz.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid6.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+        <td style="vertical-align: top;"><br>
+        <small><span style="font-family: Verdana;"><br>
+        <br>
+        <br>
+RAID 'RAID' olarak görüntülenir ve daha sonra bölümleri oldu&#287;unu
+alt&#305;nda listelenmi&#351; olacakt&#305;r. K&#305;r&#305;k önce RAID üzerinde geçerli
+bölümleri vard&#305;, sonra bu bölümleri göz ve sadece bir hacim gibi
+taranacak gerekir ve veri kaydedilir. Taramak için disk veya birimin
+seçiminde yukar&#305;daki bölümüne bak&#305;n.</span><br style="font-family: Verdana;">
+        <br style="font-family: Verdana;">
+        <span style="font-family: Verdana;">Yenile Disk Listesi (Dosya Menüsü) seçene&#287;ini diski listeden tüm katma RAID birimlerini silmek için kullan&#305;labilir.</span></small><br>
+        </td>
+        <td style="vertical-align: top; text-align: center;"><img style="width: 500px; height: 373px;" alt="" src="../images/raid7.png"><br>
+        </td>
+      </tr>
+<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">RAID
+bölümleri göz yoksa, daha sonra yeniden in&#351;as&#305; için parametrelerin
+do&#287;ru de&#287;ildir. Ancak, çok kolay bir &#351;ekilde geri dönün ve yeniden
+taramay&#305; olmadan parametrelerini ayarlamak. RAID disk listesini
+vurgulay&#305;n ve Ayr&#305;nt&#305;lar dü&#287;mesini t&#305;klat&#305;n. Bu RAID Reconstructor
+ekran&#305;na dönersiniz.</font></p>
+			<p align="left">
+			<font size="-1">Burada,
+ba&#351;ka bir kombinasyon probed seçin ve RAID bölümleri göz atmak için
+izin veren bir kombinasyonu bulana kadar Tamam'&#305; t&#305;klat&#305;n. Farkl&#305;
+kombinasyonlar&#305; deneyerek yard&#305;m için, sütunlar&#305;n probed kombinasyonlar
+listesini s&#305;ralayabilirsiniz.</font></p>
+			<p align="left">
+			<font size="-1">Ba&#351;lat
+sektörlerde, Disk düzeni, &#350;erit boyutu, ve Parite rotasyon - Geli&#351;mi&#351;
+kullan&#305;c&#305;lar sadece veri girerek soldaki parametreleri
+ayarlayabilirsiniz. Sonra yeniden in&#351;a RAID atmak için denemek için
+Tamam'&#305; t&#305;klat&#305;n.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/raid5.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%"><p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+			<td width="66%">&nbsp;</td>
+		</tr>
+		</tbody></table>
+<b>		</b></font><p align="center"></p><hr><p></p>
+</blockquote>
+
+<font face="Verdana, Arial, Helvetica, sans-serif"><b><a name="datawiping"></a><img src="../images/topic.gif"> Silme Veri</b></font><p></p>
+<blockquote>
+
+<font face="Verdana, Arial, Helvetica, sans-serif"><b>	</b><table border="0" cellpadding="2" width="95%">
+		<tbody><tr>
+			<td width="34%">
+			<p align="left">
+	<img src="../images/tb_wipe.png" align="left" border="0"><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><b>Silme Veri:</b> 
+	Bu seçenek, son derece dikkatli kullan&#305;lmal&#305;d&#305;r. Bu seçenekle veri silindi sonra, tüm bilgileri kurtarmak için bir yol yoktur.</font></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/wipe1.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<span style="font-size: 11pt; font-family: Calibri,sans-serif;" lang="TR">
+			Birimdeki verilerin kal&#305;c&#305; olarak silmek için, ekran&#305;n sa&#287; taraf&#305;nda 
+			silmek istedi&#287;iniz dosya ya da klasörleri seçin. Seçtikten sonra, 
+			araç çubu&#287;unda silin simgesini t&#305;klat&#305;n.</span></p>
+			</td>
+			<td style="text-align: center;" width="66%">
+			<img src="../images/wipe2.png"><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%">
+			<p align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" size="-1">Veri
+silme hakk&#305;nda bir uyar&#305; verilecek ve devam etmek istiyorsan&#305;z
+istenecektir. S&#304;Z S&#304;Z VER&#304; S&#304;LME &#304;Ç&#304;N &#304;STED&#304;KLER&#304; emin olmad&#305;kça VAR
+CEVAP VERMEY&#304;N! Hay&#305;r'&#305; t&#305;klarsan&#305;z, önceki ekrana geri al&#305;nm&#305;&#351;
+olacakt&#305;r. Evet'i t&#305;klarsan&#305;z, veri hacmi kal&#305;c&#305; olarak silinecektir.</font></p>
+			</td>
+			<td align="center" width="66%">
+			<br><br>
+			<img src="../images/wipe3.png">
+			<br><br><br>
+			</td>
+		</tr>
+		<tr>
+			<td width="34%"><p><font face="Verdana, Arial, Helvetica, sans-serif" size="-1"><i>
+		<a href="#top">Yukar&#305;</a></i></font></p></td>
+			<td width="66%">&nbsp;</td>
+		</tr>
+		</tbody></table>
+<b>		</b></font><p align="center"></p><hr><p></p>
+</blockquote>
+
+<font fa
